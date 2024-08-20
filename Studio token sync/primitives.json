@@ -1195,7 +1195,7 @@
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.rg.weight}",
             "fontSize": "{ro.rg.24.size}",
-            "lineHeight": "{ro.rg.14.line-height}"
+            "lineHeight": "{ro.rg.24.line-height}"
           }
         },
         "paragraph-01(md)": {
