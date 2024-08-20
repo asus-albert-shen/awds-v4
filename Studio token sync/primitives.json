@@ -487,259 +487,257 @@
         "$value": "{font-family.superior}"
       }
     },
-    "Primitives": {
-      "Roboto": {
-        "ro-md-14": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.md.weight}",
-            "fontSize": "{ro.md.14-sh.size}",
-            "lineHeight": "{ro.md.14-sh.line-height}",
-            "letterSpacing": "{ro.md.14-sh.letter-spacing}"
-          }
-        },
-        "ro-md-16": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.md.weight}",
-            "lineHeight": "{ro.md.16-sh.line-height}",
-            "fontSize": "{ro.md.16-sh.size}",
-            "letterSpacing": "{ro.md.16-sh.letter-spacing}"
-          }
-        },
-        "ro-rg-12": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.rg.weight}",
-            "lineHeight": "{ro.rg.12.line-height}",
-            "fontSize": "{ro.rg.12.size}",
-            "letterSpacing": "{ro.rg.12.letter-spacing}"
-          }
-        },
-        "ro-rg-13": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.rg.weight}",
-            "lineHeight": "{ro.rg.13.line-height}",
-            "fontSize": "{ro.rg.13.size}",
-            "letterSpacing": "{ro.rg.13.letter-spacing}"
-          }
-        },
-        "ro-rg-14": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.rg.weight}",
-            "lineHeight": "{ro.rg.14.line-height}",
-            "fontSize": "{ro.rg.14.size}",
-            "letterSpacing": "{ro.rg.14.letter-spacing}"
-          }
-        },
-        "ro-rg-14-sh": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.rg.weight}",
-            "lineHeight": "{ro.md.14-sh.line-height}",
-            "fontSize": "{ro.rg.14-sh.size}",
-            "letterSpacing": "{ro.md.14-sh.letter-spacing}"
-          }
-        },
-        "ro-rg-16": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.rg.weight}",
-            "lineHeight": "{ro.rg.16.line-height}",
-            "fontSize": "{ro.rg.16.size}",
-            "letterSpacing": "{ro.rg.16.letter-spacing}"
-          }
-        },
-        "ro-rg-16-sh": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.rg.weight}",
-            "lineHeight": "{ro.rg.16-sh.line-height}",
-            "fontSize": "{ro.rg.16-sh.size}",
-            "letterSpacing": "{ro.rg.16-sh.letter-spacing}"
-          }
-        },
-        "ro-rg-18": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.rg.weight}",
-            "lineHeight": "{ro.rg.12.line-height}",
-            "fontSize": "{ro.rg.18.size}",
-            "letterSpacing": "{ro.rg.18.letter-spacing}"
-          }
-        },
-        "ro-rg-18-sh": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.rg.weight}",
-            "lineHeight": "{ro.rg.18-sh.line-height}",
-            "fontSize": "{ro.rg.18-sh.size}",
-            "letterSpacing": "{ro.rg.18-sh.letter-spacing}"
-          }
-        },
-        "ro-rg-20": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.rg.weight}",
-            "lineHeight": "{ro.rg.20.line-height}",
-            "fontSize": "{ro.rg.20.size}",
-            "letterSpacing": "{ro.rg.20.letter-spacing}"
-          }
-        },
-        "ro-rg-20-sh": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.rg.weight}",
-            "lineHeight": "{ro.rg.20-sh.line-height}",
-            "fontSize": "{ro.rg.20-sh.size}",
-            "letterSpacing": "{ro.rg.20-sh.letter-spacing}"
-          }
-        },
-        "ro-rg-24": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.rg.weight}",
-            "lineHeight": "{ro.rg.24.line-height}",
-            "fontSize": "{ro.rg.24.size}",
-            "letterSpacing": "{ro.rg.24.letter-spacing}"
-          }
+    "Roboto": {
+      "ro-md-14": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.md.weight}",
+          "fontSize": "{ro.md.14-sh.size}",
+          "lineHeight": "{ro.md.14-sh.line-height}",
+          "letterSpacing": "{ro.md.14-sh.letter-spacing}"
         }
       },
-      "TTNormsPro": {
-        "tt-md-13": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "lineHeight": "{tt.md.13.line-height}",
-            "fontSize": "{tt.md.13.size}",
-            "letterSpacing": "{tt.md.13.letter-spacing}"
-          }
-        },
-        "tt-md-14": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "lineHeight": "{tt.md.14.line-height}",
-            "fontSize": "{tt.md.14.size}",
-            "letterSpacing": "{tt.md.14.letter-spacing}"
-          }
-        },
-        "tt-md-16": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "lineHeight": "{tt.md.16.line-height}",
-            "fontSize": "{tt.md.16.size}",
-            "letterSpacing": "{tt.md.16.letter-spacing}"
-          }
-        },
-        "tt-md-18": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "lineHeight": "{tt.md.18.line-height}",
-            "fontSize": "{tt.md.18.size}",
-            "letterSpacing": "{tt.md.18.letter-spacing}"
-          }
-        },
-        "tt-md-20": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "lineHeight": "{tt.md.20.line-height}",
-            "fontSize": "{tt.md.20.size}",
-            "letterSpacing": "{tt.md.20.letter-spacing}"
-          }
-        },
-        "tt-md-24": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "lineHeight": "{tt.md.24.line-height}",
-            "fontSize": "{tt.md.24.size}",
-            "letterSpacing": "{tt.md.24.letter-spacing}"
-          }
-        },
-        "tt-md-30": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "lineHeight": "{tt.md.30.line-height}",
-            "fontSize": "{tt.md.30.size}",
-            "letterSpacing": "{tt.md.30.letter-spacing}"
-          }
-        },
-        "tt-md-36": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "lineHeight": "{tt.md.36.line-height}",
-            "fontSize": "{tt.md.36.size}",
-            "letterSpacing": "{tt.md.36.letter-spacing}"
-          }
-        },
-        "tt-md-44": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "lineHeight": "{tt.md.44.line-height}",
-            "fontSize": "{tt.md.44.size}",
-            "letterSpacing": "{tt.md.44.letter-spacing}"
-          }
-        },
-        "tt-md-52": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "lineHeight": "{tt.md.52.line-height}",
-            "fontSize": "{tt.md.52.size}",
-            "letterSpacing": "{tt.md.52.letter-spacing}"
-          }
-        },
-        "tt-md-64": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "lineHeight": "{tt.md.64.line-height}",
-            "fontSize": "{tt.md.64.size}",
-            "letterSpacing": "{tt.md.64.letter-spacing}"
-          }
-        },
-        "tt-md-72": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "lineHeight": "{tt.md.72.line-height}",
-            "fontSize": "{tt.md.72.size}",
-            "letterSpacing": "{tt.md.72.letter-spacing}"
-          }
+      "ro-md-16": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.md.weight}",
+          "lineHeight": "{ro.md.16-sh.line-height}",
+          "fontSize": "{ro.md.16-sh.size}",
+          "letterSpacing": "{ro.md.16-sh.letter-spacing}"
+        }
+      },
+      "ro-rg-12": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "lineHeight": "{ro.rg.12.line-height}",
+          "fontSize": "{ro.rg.12.size}",
+          "letterSpacing": "{ro.rg.12.letter-spacing}"
+        }
+      },
+      "ro-rg-13": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "lineHeight": "{ro.rg.13.line-height}",
+          "fontSize": "{ro.rg.13.size}",
+          "letterSpacing": "{ro.rg.13.letter-spacing}"
+        }
+      },
+      "ro-rg-14": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "lineHeight": "{ro.rg.14.line-height}",
+          "fontSize": "{ro.rg.14.size}",
+          "letterSpacing": "{ro.rg.14.letter-spacing}"
+        }
+      },
+      "ro-rg-14-sh": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "lineHeight": "{ro.md.14-sh.line-height}",
+          "fontSize": "{ro.rg.14-sh.size}",
+          "letterSpacing": "{ro.md.14-sh.letter-spacing}"
+        }
+      },
+      "ro-rg-16": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "lineHeight": "{ro.rg.16.line-height}",
+          "fontSize": "{ro.rg.16.size}",
+          "letterSpacing": "{ro.rg.16.letter-spacing}"
+        }
+      },
+      "ro-rg-16-sh": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "lineHeight": "{ro.rg.16-sh.line-height}",
+          "fontSize": "{ro.rg.16-sh.size}",
+          "letterSpacing": "{ro.rg.16-sh.letter-spacing}"
+        }
+      },
+      "ro-rg-18": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "lineHeight": "{ro.rg.12.line-height}",
+          "fontSize": "{ro.rg.18.size}",
+          "letterSpacing": "{ro.rg.18.letter-spacing}"
+        }
+      },
+      "ro-rg-18-sh": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "lineHeight": "{ro.rg.18-sh.line-height}",
+          "fontSize": "{ro.rg.18-sh.size}",
+          "letterSpacing": "{ro.rg.18-sh.letter-spacing}"
+        }
+      },
+      "ro-rg-20": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "lineHeight": "{ro.rg.20.line-height}",
+          "fontSize": "{ro.rg.20.size}",
+          "letterSpacing": "{ro.rg.20.letter-spacing}"
+        }
+      },
+      "ro-rg-20-sh": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "lineHeight": "{ro.rg.20-sh.line-height}",
+          "fontSize": "{ro.rg.20-sh.size}",
+          "letterSpacing": "{ro.rg.20-sh.letter-spacing}"
+        }
+      },
+      "ro-rg-24": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "lineHeight": "{ro.rg.24.line-height}",
+          "fontSize": "{ro.rg.24.size}",
+          "letterSpacing": "{ro.rg.24.letter-spacing}"
+        }
+      }
+    },
+    "TTNormsPro": {
+      "tt-md-13": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "lineHeight": "{tt.md.13.line-height}",
+          "fontSize": "{tt.md.13.size}",
+          "letterSpacing": "{tt.md.13.letter-spacing}"
+        }
+      },
+      "tt-md-14": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "lineHeight": "{tt.md.14.line-height}",
+          "fontSize": "{tt.md.14.size}",
+          "letterSpacing": "{tt.md.14.letter-spacing}"
+        }
+      },
+      "tt-md-16": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "lineHeight": "{tt.md.16.line-height}",
+          "fontSize": "{tt.md.16.size}",
+          "letterSpacing": "{tt.md.16.letter-spacing}"
+        }
+      },
+      "tt-md-18": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "lineHeight": "{tt.md.18.line-height}",
+          "fontSize": "{tt.md.18.size}",
+          "letterSpacing": "{tt.md.18.letter-spacing}"
+        }
+      },
+      "tt-md-20": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "lineHeight": "{tt.md.20.line-height}",
+          "fontSize": "{tt.md.20.size}",
+          "letterSpacing": "{tt.md.20.letter-spacing}"
+        }
+      },
+      "tt-md-24": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "lineHeight": "{tt.md.24.line-height}",
+          "fontSize": "{tt.md.24.size}",
+          "letterSpacing": "{tt.md.24.letter-spacing}"
+        }
+      },
+      "tt-md-30": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "lineHeight": "{tt.md.30.line-height}",
+          "fontSize": "{tt.md.30.size}",
+          "letterSpacing": "{tt.md.30.letter-spacing}"
+        }
+      },
+      "tt-md-36": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "lineHeight": "{tt.md.36.line-height}",
+          "fontSize": "{tt.md.36.size}",
+          "letterSpacing": "{tt.md.36.letter-spacing}"
+        }
+      },
+      "tt-md-44": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "lineHeight": "{tt.md.44.line-height}",
+          "fontSize": "{tt.md.44.size}",
+          "letterSpacing": "{tt.md.44.letter-spacing}"
+        }
+      },
+      "tt-md-52": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "lineHeight": "{tt.md.52.line-height}",
+          "fontSize": "{tt.md.52.size}",
+          "letterSpacing": "{tt.md.52.letter-spacing}"
+        }
+      },
+      "tt-md-64": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "lineHeight": "{tt.md.64.line-height}",
+          "fontSize": "{tt.md.64.size}",
+          "letterSpacing": "{tt.md.64.letter-spacing}"
+        }
+      },
+      "tt-md-72": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "lineHeight": "{tt.md.72.line-height}",
+          "fontSize": "{tt.md.72.size}",
+          "letterSpacing": "{tt.md.72.letter-spacing}"
         }
       }
     }
