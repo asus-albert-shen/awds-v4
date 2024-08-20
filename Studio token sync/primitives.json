@@ -1089,7 +1089,7 @@
           "$value": {
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.52.size}",
+            "fontSize": "{tt.md.30.size}",
             "lineHeight": "{tt.md.30.line-height}"
           }
         }
