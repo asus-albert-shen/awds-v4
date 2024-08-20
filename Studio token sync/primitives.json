@@ -1,5 +1,5 @@
 {
-  "proporty": {
+  "proporties": {
     "font-family": {
       "base": {
         "$type": "text",
@@ -92,7 +92,7 @@
       }
     }
   },
-  "primitive": {
+  "primitives": {
     "ro": {
       "fontype": {
         "$type": "text",
@@ -742,7 +742,7 @@
       }
     }
   },
-  "sematics": {
+  "semantics": {
     "Body": {
       "body-01": {
         "$type": "typography",
