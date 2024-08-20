@@ -1,5 +1,5 @@
 {
-  "proporties": {
+  "Proporties": {
     "font-family": {
       "base": {
         "$type": "text",
@@ -92,7 +92,7 @@
       }
     }
   },
-  "primitives": {
+  "Primitives": {
     "ro": {
       "fontype": {
         "$type": "text",
@@ -742,7 +742,7 @@
       }
     }
   },
-  "semantics": {
+  "Semantics": {
     "Body": {
       "body-01": {
         "$type": "typography",
@@ -753,401 +753,464 @@
           "lineHeight": "{ro.rg.14.line-height}"
         }
       },
-      "Display": {
-        "display-01(lg)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.52.size}",
-            "lineHeight": "{tt.md.52.line-height}"
-          }
-        },
-        "display-01(md)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.44.size}",
-            "lineHeight": "{tt.md.44.line-height}"
-          }
-        },
-        "display-01(sm)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.36.size}",
-            "lineHeight": "{tt.md.36.line-height}"
-          }
-        },
-        "display-02(lg)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.72.size}",
-            "lineHeight": "{tt.md.72.line-height}"
-          }
-        },
-        "display-02(md)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.52.size}",
-            "lineHeight": "{tt.md.52.line-height}"
-          }
-        },
-        "display-02(sm)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.44.size}",
-            "lineHeight": "{tt.md.44.line-height}"
-          }
-        },
-        "display-03(lg)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.72.size}",
-            "lineHeight": "{tt.md.52.line-height}"
-          }
-        },
-        "display-03(md)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.52.size}",
-            "lineHeight": "{tt.md.52.line-height}"
-          }
-        },
-        "display-03(sm)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.36.size}",
-            "lineHeight": "{tt.md.52.line-height}"
-          }
+      "bod-02": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "fontSize": "{ro.rg.16.size}",
+          "lineHeight": "{ro.rg.16.line-height}"
         }
       },
-      "Fluid Heading": {
-        "fluid-heading-02(lg)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.16.size}",
-            "lineHeight": "{tt.md.16.line-height}"
-          }
-        },
-        "fluid-heading-02(md)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.16.size}",
-            "lineHeight": "{tt.md.16.line-height}"
-          }
-        },
-        "fluid-heading-02(sm)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.14.size}",
-            "lineHeight": "{tt.md.14.line-height}"
-          }
-        },
-        "fluid-heading-03(lg)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.18.size}",
-            "lineHeight": "{tt.md.18.line-height}"
-          }
-        },
-        "fluid-heading-03(md)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.18.size}",
-            "lineHeight": "{tt.md.18.line-height}"
-          }
-        },
-        "fluid-heading-03(sm)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.16.size}",
-            "lineHeight": "{tt.md.16.line-height}"
-          }
-        },
-        "fluid-heading-04(lg)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.20.size}",
-            "lineHeight": "{tt.md.20.line-height}"
-          }
-        },
-        "fluid-heading-04(md)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.18.size}",
-            "lineHeight": "{tt.md.18.line-height}"
-          }
-        },
-        "fluid-heading-04(sm)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.18.size}",
-            "lineHeight": "{tt.md.18.line-height}"
-          }
-        },
-        "fluid-heading-05(lg)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.30.size}",
-            "lineHeight": "{tt.md.30.line-height}"
-          }
-        },
-        "fluid-heading-05(md)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.24.size}",
-            "lineHeight": "{tt.md.24.line-height}"
-          }
-        },
-        "fluid-heading-05(sm)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.20.size}",
-            "lineHeight": "{tt.md.20.line-height}"
-          }
-        },
-        "fluid-heading-06(lg)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.30.size}",
-            "lineHeight": "{tt.md.30.line-height}"
-          }
-        },
-        "fluid-heading-06(md)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.24.size}",
-            "lineHeight": "{tt.md.24.line-height}"
-          }
-        },
-        "fluid-heading-06(sm)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.24.size}",
-            "lineHeight": "{tt.md.24.line-height}"
-          }
-        },
-        "fluid-heading-07(lg)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.36.size}",
-            "lineHeight": "{tt.md.36.line-height}"
-          }
-        },
-        "fluid-heading-07(md)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.30.size}",
-            "lineHeight": "{tt.md.30.line-height}"
-          }
-        },
-        "fluid-heading-07(sm)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.30.size}",
-            "lineHeight": "{tt.md.30.line-height}"
-          }
-        },
-        "fluid-heading-08(lg)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.44.size}",
-            "lineHeight": "{tt.md.44.line-height}"
-          }
-        },
-        "fluid-heading-08(md)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.36.size}",
-            "lineHeight": "{tt.md.36.line-height}"
-          }
-        },
-        "fluid-heading-08(sm)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.30.size}",
-            "lineHeight": "{tt.md.30.line-height}"
-          }
+      "body-03": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "fontSize": "{ro.rg.18.size}",
+          "lineHeight": "{ro.rg.18.line-height}"
         }
       },
-      "Heading": {
-        "heading-01": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.14.size}",
-            "lineHeight": "{tt.md.14.line-height}"
-          }
-        },
-        "heading-02": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.16.size}",
-            "lineHeight": "{tt.md.16.line-height}"
-          }
-        },
-        "heading-03": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.18.size}",
-            "lineHeight": "{tt.md.18.line-height}"
-          }
-        },
-        "heading-04": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{tt.fontype}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.20.size}",
-            "lineHeight": "{tt.md.20.line-height}"
-          }
-        },
-        "heading-00-sh": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.md.weight}",
-            "fontSize": "{ro.md.13.size}",
-            "lineHeight": "{ro.md.13.line-height}"
-          }
-        },
-        "heading-01-sh": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.md.weight}",
-            "fontSize": "{ro.md.14-sh.size}",
-            "lineHeight": "{ro.md.16-sh.line-height}"
-          }
-        },
-        "heading-02-sh": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.md.weight}",
-            "fontSize": "{ro.md.16-sh.size}",
-            "lineHeight": "{ro.md.16-sh.line-height}"
-          }
+      "body-04": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "fontSize": "{ro.rg.20.size}",
+          "lineHeight": "{ro.rg.20.line-height}"
         }
       },
-      "Label": {
-        "label-01": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.12.size}",
-            "lineHeight": "{ro.rg.12.line-height}"
-          }
-        },
-        "label-02": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.13.size}",
-            "lineHeight": "{ro.rg.13.line-height}"
-          }
-        },
-        "label-03": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.14.size}",
-            "lineHeight": "{ro.rg.14.line-height}"
-          }
+      "body-01-sh": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "fontSize": "{ro.rg.14-sh.size}",
+          "lineHeight": "{ro.rg.16-sh.line-height}"
         }
       },
-      "Paragraph": {
-        "paragraph-01(lg)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.24.size}",
-            "lineHeight": "{ro.rg.24.line-height}"
-          }
-        },
-        "paragraph-01(md)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.20.size}",
-            "lineHeight": "{ro.rg.20.line-height}"
-          }
-        },
-        "paragraph-01(sm)": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.20.size}",
-            "lineHeight": "{ro.rg.20.line-height}"
-          }
+      "body-02-sh": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "fontSize": "{ro.rg.16-sh.size}",
+          "lineHeight": "{ro.rg.16-sh.line-height}"
+        }
+      },
+      "body-03-sh": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "fontSize": "{ro.rg.18.size}",
+          "lineHeight": "{ro.rg.18.line-height}"
+        }
+      },
+      "body-04-sh": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "fontSize": "{ro.rg.18.size}",
+          "lineHeight": "{ro.rg.18.line-height}"
+        }
+      }
+    },
+    "Display": {
+      "display-01(lg)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.52.size}",
+          "lineHeight": "{tt.md.52.line-height}"
+        }
+      },
+      "display-01(md)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.44.size}",
+          "lineHeight": "{tt.md.44.line-height}"
+        }
+      },
+      "display-01(sm)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.36.size}",
+          "lineHeight": "{tt.md.36.line-height}"
+        }
+      },
+      "display-02(lg)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.72.size}",
+          "lineHeight": "{tt.md.72.line-height}"
+        }
+      },
+      "display-02(md)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.52.size}",
+          "lineHeight": "{tt.md.52.line-height}"
+        }
+      },
+      "display-02(sm)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.44.size}",
+          "lineHeight": "{tt.md.44.line-height}"
+        }
+      },
+      "display-03(lg)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.72.size}",
+          "lineHeight": "{tt.md.52.line-height}"
+        }
+      },
+      "display-03(md)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.52.size}",
+          "lineHeight": "{tt.md.52.line-height}"
+        }
+      },
+      "display-03(sm)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.36.size}",
+          "lineHeight": "{tt.md.52.line-height}"
+        }
+      }
+    },
+    "Fluid Heading": {
+      "fluid-heading-02(lg)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.16.size}",
+          "lineHeight": "{tt.md.16.line-height}"
+        }
+      },
+      "fluid-heading-02(md)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.16.size}",
+          "lineHeight": "{tt.md.16.line-height}"
+        }
+      },
+      "fluid-heading-02(sm)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.14.size}",
+          "lineHeight": "{tt.md.14.line-height}"
+        }
+      },
+      "fluid-heading-03(lg)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.18.size}",
+          "lineHeight": "{tt.md.18.line-height}"
+        }
+      },
+      "fluid-heading-03(md)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.18.size}",
+          "lineHeight": "{tt.md.18.line-height}"
+        }
+      },
+      "fluid-heading-03(sm)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.16.size}",
+          "lineHeight": "{tt.md.16.line-height}"
+        }
+      },
+      "fluid-heading-04(lg)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.20.size}",
+          "lineHeight": "{tt.md.20.line-height}"
+        }
+      },
+      "fluid-heading-04(md)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.18.size}",
+          "lineHeight": "{tt.md.18.line-height}"
+        }
+      },
+      "fluid-heading-04(sm)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.18.size}",
+          "lineHeight": "{tt.md.18.line-height}"
+        }
+      },
+      "fluid-heading-05(lg)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.30.size}",
+          "lineHeight": "{tt.md.30.line-height}"
+        }
+      },
+      "fluid-heading-05(md)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.24.size}",
+          "lineHeight": "{tt.md.24.line-height}"
+        }
+      },
+      "fluid-heading-05(sm)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.24.size}",
+          "lineHeight": "{tt.md.24.line-height}"
+        }
+      },
+      "fluid-heading-06(lg)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.36.size}",
+          "lineHeight": "{tt.md.36.line-height}"
+        }
+      },
+      "fluid-heading-06(md)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.30.size}",
+          "lineHeight": "{tt.md.30.line-height}"
+        }
+      },
+      "fluid-heading-06(sm)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.44.size}",
+          "lineHeight": "{tt.md.44.line-height}"
+        }
+      },
+      "fluid-heading-07(lg)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.36.size}",
+          "lineHeight": "{tt.md.36.line-height}"
+        }
+      },
+      "fluid-heading-07(md)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.30.size}",
+          "lineHeight": "{tt.md.30.line-height}"
+        }
+      },
+      "fluid-heading-07(sm)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.30.size}",
+          "lineHeight": "{tt.md.30.line-height}"
+        }
+      },
+      "fluid-heading-08(lg)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.44.size}",
+          "lineHeight": "{tt.md.44.line-height}"
+        }
+      },
+      "fluid-heading-08(md)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.36.size}",
+          "lineHeight": "{tt.md.36.line-height}"
+        }
+      },
+      "fluid-heading-08(sm)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.52.size}",
+          "lineHeight": "{tt.md.30.line-height}"
+        }
+      }
+    },
+    "Heading": {
+      "heading-01": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.14.size}",
+          "lineHeight": "{tt.md.14.line-height}"
+        }
+      },
+      "heading-02": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.16.size}",
+          "lineHeight": "{tt.md.16.line-height}"
+        }
+      },
+      "heading-03": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.18.size}",
+          "lineHeight": "{tt.md.18.line-height}"
+        }
+      },
+      "heading-04": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{tt.fontype}",
+          "fontWeight": "{tt.md.weight}",
+          "fontSize": "{tt.md.20.size}",
+          "lineHeight": "{tt.md.20.line-height}"
+        }
+      },
+      "heading-00-sh": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.md.weight}",
+          "fontSize": "{ro.md.13.size}",
+          "lineHeight": "{ro.md.13.line-height}"
+        }
+      },
+      "heading-01-sh": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.md.weight}",
+          "fontSize": "{ro.md.14-sh.size}",
+          "lineHeight": "{ro.md.16-sh.line-height}"
+        }
+      },
+      "heading-02-sh": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.md.weight}",
+          "fontSize": "{ro.md.16-sh.size}",
+          "lineHeight": "{ro.md.16-sh.line-height}"
+        }
+      }
+    },
+    "Label": {
+      "label-01": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "fontSize": "{ro.rg.12.size}",
+          "lineHeight": "{ro.rg.12.line-height}"
+        }
+      },
+      "label-02": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "fontSize": "{ro.rg.13.size}",
+          "lineHeight": "{ro.rg.13.line-height}"
+        }
+      },
+      "label-03": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "fontSize": "{ro.rg.14.size}",
+          "lineHeight": "{ro.rg.14.line-height}"
+        }
+      }
+    },
+    "Paragraph": {
+      "paragraph-01(lg)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "fontSize": "{ro.rg.24.size}",
+          "lineHeight": "{ro.rg.14.line-height}"
+        }
+      },
+      "paragraph-01(md)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "fontSize": "{ro.rg.20.size}",
+          "lineHeight": "{ro.rg.20.line-height}"
+        }
+      },
+      "paragraph-01(sm)": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{ro.fontype}",
+          "fontWeight": "{ro.rg.weight}",
+          "fontSize": "{ro.rg.20.size}",
+          "lineHeight": "{ro.rg.20.line-height}"
         }
       }
     }
@@ -1155,9 +1218,9 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "proporty",
-      "primitive",
-      "sematics"
+      "Proporties",
+      "Primitives",
+      "Semantics"
     ]
   }
 }
