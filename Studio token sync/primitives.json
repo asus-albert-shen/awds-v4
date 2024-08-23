@@ -8,7 +8,8 @@
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.rg.weight}",
             "fontSize": "{ro.rg.12.size}",
-            "lineHeight": "{ro.rg.12.line-height}"
+            "lineHeight": "{ro.rg.12.line-height}",
+            "letterSpacing": "{ro.rg.12.letter-spacing}"
           }
         },
         "label-02": {
@@ -17,7 +18,8 @@
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.rg.weight}",
             "fontSize": "{ro.rg.13.size}",
-            "lineHeight": "{ro.rg.13.line-height}"
+            "lineHeight": "{ro.rg.13.line-height}",
+            "letterSpacing": "{ro.rg.13.letter-spacing}"
           }
         },
         "label-03": {
@@ -26,7 +28,8 @@
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.rg.weight}",
             "fontSize": "{ro.rg.14.size}",
-            "lineHeight": "{ro.rg.14.line-height}"
+            "lineHeight": "{ro.rg.14.line-height}",
+            "letterSpacing": "{ro.rg.14.letter-spacing}"
           }
         }
       },
@@ -37,7 +40,8 @@
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.rg.weight}",
             "fontSize": "{ro.rg.14.size}",
-            "lineHeight": "{ro.rg.14.line-height}"
+            "lineHeight": "{ro.rg.14.line-height}",
+            "letterSpacing": "{ro.rg.14.letter-spacing}"
           }
         },
         "bod-02": {
@@ -46,7 +50,8 @@
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.rg.weight}",
             "fontSize": "{ro.rg.16.size}",
-            "lineHeight": "{ro.rg.16.line-height}"
+            "lineHeight": "{ro.rg.16.line-height}",
+            "letterSpacing": "{ro.rg.16.letter-spacing}"
           }
         },
         "body-03": {
@@ -55,7 +60,8 @@
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.rg.weight}",
             "fontSize": "{ro.rg.18.size}",
-            "lineHeight": "{ro.rg.18.line-height}"
+            "lineHeight": "{ro.rg.18.line-height}",
+            "letterSpacing": "{ro.rg.18.letter-spacing}"
           }
         },
         "body-04": {
@@ -64,7 +70,8 @@
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.rg.weight}",
             "fontSize": "{ro.rg.20.size}",
-            "lineHeight": "{ro.rg.20.line-height}"
+            "lineHeight": "{ro.rg.20.line-height}",
+            "letterSpacing": "{ro.rg.20.letter-spacing}"
           }
         },
         "body-01-sh": {
@@ -73,7 +80,8 @@
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.rg.weight}",
             "fontSize": "{ro.rg.14-sh.size}",
-            "lineHeight": "{ro.rg.16-sh.line-height}"
+            "lineHeight": "{ro.rg.14-sh.line-height}",
+            "letterSpacing": "{ro.rg.14-sh.letter-spacing}"
           }
         },
         "body-02-sh": {
@@ -82,7 +90,8 @@
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.rg.weight}",
             "fontSize": "{ro.rg.16-sh.size}",
-            "lineHeight": "{ro.rg.16-sh.line-height}"
+            "lineHeight": "{ro.rg.16-sh.line-height}",
+            "letterSpacing": "{ro.rg.16-sh.letter-spacing}"
           }
         },
         "body-03-sh": {
@@ -90,8 +99,9 @@
           "$value": {
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.18.size}",
-            "lineHeight": "{ro.rg.18.line-height}"
+            "fontSize": "{ro.rg.18-sh.size}",
+            "lineHeight": "{ro.rg.18-sh.line-height}",
+            "letterSpacing": "{ro.rg.18-sh.letter-spacing}"
           }
         },
         "body-04-sh": {
@@ -99,8 +109,9 @@
           "$value": {
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.18.size}",
-            "lineHeight": "{ro.rg.18.line-height}"
+            "fontSize": "{ro.rg.20-sh.size}",
+            "lineHeight": "{ro.rg.20-sh.line-height}",
+            "letterSpacing": "{ro.rg.20-sh.letter-spacing}"
           }
         }
       },
@@ -111,7 +122,8 @@
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.rg.weight}",
             "fontSize": "{ro.rg.24.size}",
-            "lineHeight": "{ro.rg.14.line-height}"
+            "lineHeight": "{ro.rg.24.line-height}",
+            "letterSpacing": "{ro.rg.24.letter-spacing}"
           }
         },
         "paragraph-01(md)": {
@@ -120,7 +132,8 @@
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.rg.weight}",
             "fontSize": "{ro.rg.20.size}",
-            "lineHeight": "{ro.rg.20.line-height}"
+            "lineHeight": "{ro.rg.20.line-height}",
+            "letterSpacing": "{ro.rg.20.letter-spacing}"
           }
         },
         "paragraph-01(sm)": {
@@ -129,7 +142,8 @@
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.rg.weight}",
             "fontSize": "{ro.rg.20.size}",
-            "lineHeight": "{ro.rg.20.line-height}"
+            "lineHeight": "{ro.rg.20.line-height}",
+            "letterSpacing": "{ro.rg.20.letter-spacing}"
           }
         }
       },
@@ -140,7 +154,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.14.size}",
-            "lineHeight": "{tt.md.14.line-height}"
+            "lineHeight": "{tt.md.14.line-height}",
+            "letterSpacing": "{tt.md.14.letter-spacing}"
           }
         },
         "heading-02": {
@@ -149,7 +164,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.16.size}",
-            "lineHeight": "{tt.md.16.line-height}"
+            "lineHeight": "{tt.md.16.line-height}",
+            "letterSpacing": "{tt.md.16.letter-spacing}"
           }
         },
         "heading-03": {
@@ -158,7 +174,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.18.size}",
-            "lineHeight": "{tt.md.18.line-height}"
+            "lineHeight": "{tt.md.18.line-height}",
+            "letterSpacing": "{tt.md.18.letter-spacing}"
           }
         },
         "heading-04": {
@@ -167,7 +184,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.20.size}",
-            "lineHeight": "{tt.md.20.line-height}"
+            "lineHeight": "{tt.md.20.line-height}",
+            "letterSpacing": "{tt.md.20.letter-spacing}"
           }
         },
         "heading-00-sh": {
@@ -176,7 +194,8 @@
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.sb.weight}",
             "fontSize": "{ro.sb.13.size}",
-            "lineHeight": "{ro.sb.13.line-height}"
+            "lineHeight": "{ro.sb.13.line-height}",
+            "letterSpacing": "{ro.sb.13.letter-spacing}"
           }
         },
         "heading-01-sh": {
@@ -185,7 +204,8 @@
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.sb.weight}",
             "fontSize": "{ro.sb.14-sh.size}",
-            "lineHeight": "{ro.sb.16-sh.line-height}"
+            "lineHeight": "{ro.sb.14-sh.line-height}",
+            "letterSpacing": "{ro.sb.14-sh.letter-spacing}"
           }
         },
         "heading-02-sh": {
@@ -194,7 +214,8 @@
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.sb.weight}",
             "fontSize": "{ro.sb.16-sh.size}",
-            "lineHeight": "{ro.sb.16-sh.line-height}"
+            "lineHeight": "{ro.sb.16-sh.line-height}",
+            "letterSpacing": "{ro.sb.16-sh.letter-spacing}"
           }
         }
       },
@@ -205,7 +226,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.16.size}",
-            "lineHeight": "{tt.md.16.line-height}"
+            "lineHeight": "{tt.md.16.line-height}",
+            "letterSpacing": "{tt.md.16.letter-spacing}"
           }
         },
         "fluid-heading-02(md)": {
@@ -214,7 +236,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.16.size}",
-            "lineHeight": "{tt.md.16.line-height}"
+            "lineHeight": "{tt.md.16.line-height}",
+            "letterSpacing": "{tt.md.16.letter-spacing}"
           }
         },
         "fluid-heading-02(sm)": {
@@ -223,7 +246,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.14.size}",
-            "lineHeight": "{tt.md.14.line-height}"
+            "lineHeight": "{tt.md.14.line-height}",
+            "letterSpacing": "{tt.md.14.letter-spacing}"
           }
         },
         "fluid-heading-03(lg)": {
@@ -232,7 +256,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.18.size}",
-            "lineHeight": "{tt.md.18.line-height}"
+            "lineHeight": "{tt.md.18.line-height}",
+            "letterSpacing": "{tt.md.18.letter-spacing}"
           }
         },
         "fluid-heading-03(md)": {
@@ -241,7 +266,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.18.size}",
-            "lineHeight": "{tt.md.18.line-height}"
+            "lineHeight": "{tt.md.18.line-height}",
+            "letterSpacing": "{tt.md.18.letter-spacing}"
           }
         },
         "fluid-heading-03(sm)": {
@@ -250,7 +276,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.16.size}",
-            "lineHeight": "{tt.md.16.line-height}"
+            "lineHeight": "{tt.md.16.line-height}",
+            "letterSpacing": "{tt.md.16.letter-spacing}"
           }
         },
         "fluid-heading-04(lg)": {
@@ -259,7 +286,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.20.size}",
-            "lineHeight": "{tt.md.20.line-height}"
+            "lineHeight": "{tt.md.20.line-height}",
+            "letterSpacing": "{tt.md.20.letter-spacing}"
           }
         },
         "fluid-heading-04(md)": {
@@ -268,7 +296,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.18.size}",
-            "lineHeight": "{tt.md.18.line-height}"
+            "lineHeight": "{tt.md.18.line-height}",
+            "letterSpacing": "{tt.md.18.letter-spacing}"
           }
         },
         "fluid-heading-04(sm)": {
@@ -277,7 +306,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.18.size}",
-            "lineHeight": "{tt.md.18.line-height}"
+            "lineHeight": "{tt.md.18.line-height}",
+            "letterSpacing": "{tt.md.18.letter-spacing}"
           }
         },
         "fluid-heading-05(lg)": {
@@ -286,7 +316,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.30.size}",
-            "lineHeight": "{tt.md.30.line-height}"
+            "lineHeight": "{tt.md.30.line-height}",
+            "letterSpacing": "{tt.md.30.letter-spacing}"
           }
         },
         "fluid-heading-05(md)": {
@@ -295,7 +326,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.24.size}",
-            "lineHeight": "{tt.md.24.line-height}"
+            "lineHeight": "{tt.md.24.line-height}",
+            "letterSpacing": "{tt.md.24.letter-spacing}"
           }
         },
         "fluid-heading-05(sm)": {
@@ -304,7 +336,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.24.size}",
-            "lineHeight": "{tt.md.24.line-height}"
+            "lineHeight": "{tt.md.24.line-height}",
+            "letterSpacing": "{tt.md.24.letter-spacing}"
           }
         },
         "fluid-heading-06(lg)": {
@@ -313,7 +346,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.36.size}",
-            "lineHeight": "{tt.md.36.line-height}"
+            "lineHeight": "{tt.md.36.line-height}",
+            "letterSpacing": "{tt.md.36.letter-spacing}"
           }
         },
         "fluid-heading-06(md)": {
@@ -322,7 +356,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.30.size}",
-            "lineHeight": "{tt.md.30.line-height}"
+            "lineHeight": "{tt.md.30.line-height}",
+            "letterSpacing": "{tt.md.30.letter-spacing}"
           }
         },
         "fluid-heading-06(sm)": {
@@ -331,7 +366,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.44.size}",
-            "lineHeight": "{tt.md.44.line-height}"
+            "lineHeight": "{tt.md.44.line-height}",
+            "letterSpacing": "{tt.md.44.letter-spacing}"
           }
         },
         "fluid-heading-07(lg)": {
@@ -340,7 +376,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.36.size}",
-            "lineHeight": "{tt.md.36.line-height}"
+            "lineHeight": "{tt.md.36.line-height}",
+            "letterSpacing": "{tt.md.36.letter-spacing}"
           }
         },
         "fluid-heading-07(md)": {
@@ -349,7 +386,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.30.size}",
-            "lineHeight": "{tt.md.30.line-height}"
+            "lineHeight": "{tt.md.30.line-height}",
+            "letterSpacing": "{tt.md.30.letter-spacing}"
           }
         },
         "fluid-heading-07(sm)": {
@@ -358,7 +396,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.30.size}",
-            "lineHeight": "{tt.md.30.line-height}"
+            "lineHeight": "{tt.md.30.line-height}",
+            "letterSpacing": "{tt.md.30.letter-spacing}"
           }
         },
         "fluid-heading-08(lg)": {
@@ -367,7 +406,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.44.size}",
-            "lineHeight": "{tt.md.44.line-height}"
+            "lineHeight": "{tt.md.44.line-height}",
+            "letterSpacing": "{tt.md.44.letter-spacing}"
           }
         },
         "fluid-heading-08(md)": {
@@ -376,7 +416,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.36.size}",
-            "lineHeight": "{tt.md.36.line-height}"
+            "lineHeight": "{tt.md.36.line-height}",
+            "letterSpacing": "{tt.md.36.letter-spacing}"
           }
         },
         "fluid-heading-08(sm)": {
@@ -385,7 +426,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.52.size}",
-            "lineHeight": "{tt.md.30.line-height}"
+            "lineHeight": "{tt.md.52.line-height}",
+            "letterSpacing": "{tt.md.52.letter-spacing}"
           }
         }
       },
@@ -396,7 +438,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.52.size}",
-            "lineHeight": "{tt.md.52.line-height}"
+            "lineHeight": "{tt.md.52.line-height}",
+            "letterSpacing": "{tt.md.52.letter-spacing}"
           }
         },
         "display-01(md)": {
@@ -405,7 +448,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.44.size}",
-            "lineHeight": "{tt.md.44.line-height}"
+            "lineHeight": "{tt.md.44.line-height}",
+            "letterSpacing": "{tt.md.44.letter-spacing}"
           }
         },
         "display-01(sm)": {
@@ -414,7 +458,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.36.size}",
-            "lineHeight": "{tt.md.36.line-height}"
+            "lineHeight": "{tt.md.36.line-height}",
+            "letterSpacing": "{tt.md.36.letter-spacing}"
           }
         },
         "display-02(lg)": {
@@ -423,7 +468,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.72.size}",
-            "lineHeight": "{tt.md.72.line-height}"
+            "lineHeight": "{tt.md.72.line-height}",
+            "letterSpacing": "{tt.md.72.letter-spacing}"
           }
         },
         "display-02(md)": {
@@ -432,7 +478,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.52.size}",
-            "lineHeight": "{tt.md.52.line-height}"
+            "lineHeight": "{tt.md.52.line-height}",
+            "letterSpacing": "{tt.md.52.letter-spacing}"
           }
         },
         "display-02(sm)": {
@@ -441,7 +488,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.44.size}",
-            "lineHeight": "{tt.md.44.line-height}"
+            "lineHeight": "{tt.md.44.line-height}",
+            "letterSpacing": "{tt.md.44.letter-spacing}"
           }
         },
         "display-03(lg)": {
@@ -450,7 +498,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.72.size}",
-            "lineHeight": "{tt.md.52.line-height}"
+            "lineHeight": "{tt.md.72.line-height}",
+            "letterSpacing": "{tt.md.72.letter-spacing}"
           }
         },
         "display-03(md)": {
@@ -459,7 +508,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.52.size}",
-            "lineHeight": "{tt.md.52.line-height}"
+            "lineHeight": "{tt.md.52.line-height}",
+            "letterSpacing": "{tt.md.52.letter-spacing}"
           }
         },
         "display-03(sm)": {
@@ -468,7 +518,8 @@
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
             "fontSize": "{tt.md.36.size}",
-            "lineHeight": "{tt.md.52.line-height}"
+            "lineHeight": "{tt.md.36.line-height}",
+            "letterSpacing": "{tt.md.36.letter-spacing}"
           }
         }
       }
@@ -532,7 +583,8 @@
         "12": {
           "size": {
             "$type": "number",
-            "$value": "{font-size.12}"
+            "$value": "{font-size.12}",
+            "$description": "ro.rg.12.size"
           },
           "line-height": {
             "$type": "number",
@@ -871,36 +923,6 @@
     },
     "Primitives": {
       "Roboto": {
-        "ro-sb-13": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.sb.weight}",
-            "fontSize": "{ro.sb.13.size}",
-            "lineHeight": "{ro.sb.13.line-height}",
-            "letterSpacing": "{ro.sb.13.letter-spacing}"
-          }
-        },
-        "ro-sb-14-sh": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.sb.weight}",
-            "fontSize": "{ro.sb.14-sh.size}",
-            "lineHeight": "{ro.sb.14-sh.line-height}",
-            "letterSpacing": "{ro.sb.14-sh.letter-spacing}"
-          }
-        },
-        "ro-sb-16-sh": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.sb.weight}",
-            "lineHeight": "{ro.sb.16-sh.line-height}",
-            "fontSize": "{ro.sb.16-sh.size}",
-            "letterSpacing": "{ro.sb.16-sh.letter-spacing}"
-          }
-        },
         "ro-rg-12": {
           "$type": "typography",
           "$value": {
@@ -909,7 +931,8 @@
             "lineHeight": "{ro.rg.12.line-height}",
             "fontSize": "{ro.rg.12.size}",
             "letterSpacing": "{ro.rg.12.letter-spacing}"
-          }
+          },
+          "$description": "Primitives.Roboto.ro-rg-12"
         },
         "ro-rg-13": {
           "$type": "typography",
@@ -919,6 +942,16 @@
             "lineHeight": "{ro.rg.13.line-height}",
             "fontSize": "{ro.rg.13.size}",
             "letterSpacing": "{ro.rg.13.letter-spacing}"
+          }
+        },
+        "ro-sb-13": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{ro.fontype}",
+            "fontWeight": "{ro.sb.weight}",
+            "fontSize": "{ro.sb.13.size}",
+            "lineHeight": "{ro.sb.13.line-height}",
+            "letterSpacing": "{ro.sb.13.letter-spacing}"
           }
         },
         "ro-rg-14": {
@@ -941,6 +974,16 @@
             "letterSpacing": "{ro.sb.14-sh.letter-spacing}"
           }
         },
+        "ro-sb-14-sh": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{ro.fontype}",
+            "fontWeight": "{ro.sb.weight}",
+            "fontSize": "{ro.sb.14-sh.size}",
+            "lineHeight": "{ro.sb.14-sh.line-height}",
+            "letterSpacing": "{ro.sb.14-sh.letter-spacing}"
+          }
+        },
         "ro-rg-16": {
           "$type": "typography",
           "$value": {
@@ -949,6 +992,16 @@
             "lineHeight": "{ro.rg.16.line-height}",
             "fontSize": "{ro.rg.16.size}",
             "letterSpacing": "{ro.rg.16.letter-spacing}"
+          }
+        },
+        "ro-sb-16-sh": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{ro.fontype}",
+            "fontWeight": "{ro.sb.weight}",
+            "lineHeight": "{ro.sb.16-sh.line-height}",
+            "fontSize": "{ro.sb.16-sh.size}",
+            "letterSpacing": "{ro.sb.16-sh.letter-spacing}"
           }
         },
         "ro-rg-16-sh": {
@@ -966,7 +1019,7 @@
           "$value": {
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.rg.weight}",
-            "lineHeight": "{ro.rg.12.line-height}",
+            "lineHeight": "{ro.rg.18.line-height}",
             "fontSize": "{ro.rg.18.size}",
             "letterSpacing": "{ro.rg.18.letter-spacing}"
           }
