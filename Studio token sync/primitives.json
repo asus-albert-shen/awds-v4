@@ -522,6 +522,18 @@
             "letterSpacing": "{tt.md.36.letter-spacing}"
           }
         }
+      },
+      "Quote": {
+        "quote-04 @lg": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{ro.fontype}",
+            "fontSize": "{ro.rg.24.size}",
+            "lineHeight": "{ro.rg.24.line-height}",
+            "fontWeight": "{ro.rg.weight}",
+            "letterSpacing": "{ro.rg.24.letter-spacing}"
+          }
+        }
       }
     }
   },
@@ -690,7 +702,7 @@
           },
           "letter-spacing": {
             "$type": "number",
-            "$value": "0.6"
+            "$value": "0.16"
           }
         },
         "16-sh": {
