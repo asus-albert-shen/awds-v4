@@ -44,17 +44,7 @@
             "letterSpacing": "{ro.rg.14.letter-spacing}"
           }
         },
-        "body-01 <strong>": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "{ro.fontype}",
-            "fontWeight": "{ro.sb.weight}",
-            "fontSize": "{ro.sb.14-sh.size}",
-            "lineHeight": "{ro.sb.14-sh.line-height}",
-            "letterSpacing": "{ro.sb.14-sh.letter-spacing}"
-          }
-        },
-        "bod-02": {
+        "body-02": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{ro.fontype}",
@@ -122,6 +112,86 @@
             "fontSize": "{ro.rg.20-sh.size}",
             "lineHeight": "{ro.rg.20-sh.line-height}",
             "letterSpacing": "{ro.rg.20-sh.letter-spacing}"
+          }
+        },
+        "body-01 <strong>": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{ro.fontype}",
+            "fontWeight": "{ro.sb.weight}",
+            "fontSize": "{ro.sb.14.size}",
+            "lineHeight": "{ro.sb.14.line-height}",
+            "letterSpacing": "{ro.sb.14.letter-spacing}"
+          }
+        },
+        "body-02 <strong>": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{ro.fontype}",
+            "fontWeight": "{ro.sb.weight}",
+            "fontSize": "{ro.sb.16.size}",
+            "lineHeight": "{ro.sb.16.line-height}",
+            "letterSpacing": "{ro.sb.16.letter-spacing}"
+          }
+        },
+        "body-03 <strong>": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{ro.fontype}",
+            "fontWeight": "{ro.sb.weight}",
+            "fontSize": "{ro.sb.18.size}",
+            "lineHeight": "{ro.sb.18.line-height}",
+            "letterSpacing": "{ro.sb.18.letter-spacing}"
+          }
+        },
+        "body-04 <strong>": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{ro.fontype}",
+            "fontWeight": "{ro.sb.weight}",
+            "fontSize": "{ro.sb.20.size}",
+            "lineHeight": "{ro.sb.20.line-height}",
+            "letterSpacing": "{ro.sb.20.letter-spacing}"
+          }
+        },
+        "body-01-sh <strong>": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{ro.fontype}",
+            "fontWeight": "{ro.sb.weight}",
+            "fontSize": "{ro.sb.14-sh.size}",
+            "lineHeight": "{ro.sb.14-sh.line-height}",
+            "letterSpacing": "{ro.sb.14-sh.letter-spacing}"
+          }
+        },
+        "body-02-sh <strong>": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{ro.fontype}",
+            "fontWeight": "{ro.rg.weight}",
+            "fontSize": "{ro.sb.16-sh.size}",
+            "lineHeight": "{ro.sb.16-sh.line-height}",
+            "letterSpacing": "{ro.sb.16-sh.letter-spacing}"
+          }
+        },
+        "body-03-sh <strong>": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{ro.fontype}",
+            "fontWeight": "{ro.rg.weight}",
+            "fontSize": "{ro.sb.18-sh.size}",
+            "lineHeight": "{ro.sb.18-sh.line-height}",
+            "letterSpacing": "{ro.sb.18-sh.letter-spacing}"
+          }
+        },
+        "body-04-sh <strong>": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{ro.fontype}",
+            "fontWeight": "{ro.rg.weight}",
+            "fontSize": "{ro.sb.20-sh.size}",
+            "lineHeight": "{ro.sb.20-sh.line-height}",
+            "letterSpacing": "{ro.sb.20-sh.letter-spacing}"
           }
         }
       },
@@ -568,6 +638,62 @@
             "$value": "0.24"
           }
         },
+        "14": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.14}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "20"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0.16"
+          }
+        },
+        "16": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.16}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "24"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
+        },
+        "18": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.18}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "26"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
+        },
+        "20": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.20}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "28"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
+        },
         "14-sh": {
           "size": {
             "$type": "number",
@@ -599,6 +725,34 @@
         "weight": {
           "$type": "number",
           "$value": "{font-weight.500}"
+        },
+        "18-sh": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.18}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "24"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
+        },
+        "20-sh": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.20}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "26"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
         }
       },
       "rg": {
@@ -984,6 +1138,16 @@
             "lineHeight": "{ro.rg.14.line-height}",
             "fontSize": "{ro.rg.14.size}",
             "letterSpacing": "{ro.rg.14.letter-spacing}"
+          }
+        },
+        "ro-sb-14": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{ro.fontype}",
+            "fontWeight": "{ro.sb.weight}",
+            "lineHeight": "{ro.sb.14.line-height}",
+            "fontSize": "{ro.sb.14.size}",
+            "letterSpacing": "{ro.sb.14.letter-spacing}"
           }
         },
         "ro-rg-14-sh": {
