@@ -116,7 +116,7 @@
         }
       },
       "Paragraph": {
-        "paragraph-01(lg)": {
+        "paragraph-01 @lg": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{ro.fontype}",
@@ -126,7 +126,7 @@
             "letterSpacing": "{ro.rg.24.letter-spacing}"
           }
         },
-        "paragraph-01(md)": {
+        "paragraph-01 @md": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{ro.fontype}",
@@ -136,7 +136,7 @@
             "letterSpacing": "{ro.rg.20.letter-spacing}"
           }
         },
-        "paragraph-01(sm)": {
+        "paragraph-01 @sm": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{ro.fontype}",
@@ -220,7 +220,7 @@
         }
       },
       "Fluid Heading": {
-        "fluid-heading-02(lg)": {
+        "fluid-heading-02 @lg": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -230,7 +230,7 @@
             "letterSpacing": "{tt.md.16.letter-spacing}"
           }
         },
-        "fluid-heading-02(md)": {
+        "fluid-heading-02 @md": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -240,7 +240,7 @@
             "letterSpacing": "{tt.md.16.letter-spacing}"
           }
         },
-        "fluid-heading-02(sm)": {
+        "fluid-heading-02 @sm": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -250,7 +250,7 @@
             "letterSpacing": "{tt.md.14.letter-spacing}"
           }
         },
-        "fluid-heading-03(lg)": {
+        "fluid-heading-03 @lg": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -260,7 +260,7 @@
             "letterSpacing": "{tt.md.18.letter-spacing}"
           }
         },
-        "fluid-heading-03(md)": {
+        "fluid-heading-03 @md": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -270,7 +270,7 @@
             "letterSpacing": "{tt.md.18.letter-spacing}"
           }
         },
-        "fluid-heading-03(sm)": {
+        "fluid-heading-03 @sm": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -280,7 +280,7 @@
             "letterSpacing": "{tt.md.16.letter-spacing}"
           }
         },
-        "fluid-heading-04(lg)": {
+        "fluid-heading-04 @lg": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -290,7 +290,7 @@
             "letterSpacing": "{tt.md.20.letter-spacing}"
           }
         },
-        "fluid-heading-04(md)": {
+        "fluid-heading-04 @md": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -300,7 +300,7 @@
             "letterSpacing": "{tt.md.18.letter-spacing}"
           }
         },
-        "fluid-heading-04(sm)": {
+        "fluid-heading-04 @sm": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -310,7 +310,7 @@
             "letterSpacing": "{tt.md.18.letter-spacing}"
           }
         },
-        "fluid-heading-05(lg)": {
+        "fluid-heading-05 @lg": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -320,7 +320,7 @@
             "letterSpacing": "{tt.md.30.letter-spacing}"
           }
         },
-        "fluid-heading-05(md)": {
+        "fluid-heading-05 @md": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -330,7 +330,7 @@
             "letterSpacing": "{tt.md.24.letter-spacing}"
           }
         },
-        "fluid-heading-05(sm)": {
+        "fluid-heading-05 @sm": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -340,7 +340,7 @@
             "letterSpacing": "{tt.md.24.letter-spacing}"
           }
         },
-        "fluid-heading-06(lg)": {
+        "fluid-heading-06 @lg": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -350,7 +350,7 @@
             "letterSpacing": "{tt.md.36.letter-spacing}"
           }
         },
-        "fluid-heading-06(md)": {
+        "fluid-heading-06 @md": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -360,7 +360,7 @@
             "letterSpacing": "{tt.md.30.letter-spacing}"
           }
         },
-        "fluid-heading-06(sm)": {
+        "fluid-heading-06 @sm": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -370,7 +370,7 @@
             "letterSpacing": "{tt.md.44.letter-spacing}"
           }
         },
-        "fluid-heading-07(lg)": {
+        "fluid-heading-07 @lg": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -380,7 +380,7 @@
             "letterSpacing": "{tt.md.36.letter-spacing}"
           }
         },
-        "fluid-heading-07(md)": {
+        "fluid-heading-07 @md": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -390,7 +390,7 @@
             "letterSpacing": "{tt.md.30.letter-spacing}"
           }
         },
-        "fluid-heading-07(sm)": {
+        "fluid-heading-07 @sm": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -400,7 +400,7 @@
             "letterSpacing": "{tt.md.30.letter-spacing}"
           }
         },
-        "fluid-heading-08(lg)": {
+        "fluid-heading-08 @lg": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -410,7 +410,7 @@
             "letterSpacing": "{tt.md.44.letter-spacing}"
           }
         },
-        "fluid-heading-08(md)": {
+        "fluid-heading-08 @md": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -420,7 +420,7 @@
             "letterSpacing": "{tt.md.36.letter-spacing}"
           }
         },
-        "fluid-heading-08(sm)": {
+        "fluid-heading-08 @sm": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -432,7 +432,7 @@
         }
       },
       "Display": {
-        "display-01(lg)": {
+        "display-01 @lg": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -442,7 +442,7 @@
             "letterSpacing": "{tt.md.52.letter-spacing}"
           }
         },
-        "display-01(md)": {
+        "display-01 @md": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -452,7 +452,7 @@
             "letterSpacing": "{tt.md.44.letter-spacing}"
           }
         },
-        "display-01(sm)": {
+        "display-01 @sm": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -462,7 +462,7 @@
             "letterSpacing": "{tt.md.36.letter-spacing}"
           }
         },
-        "display-02(lg)": {
+        "display-02 @lg": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -472,7 +472,7 @@
             "letterSpacing": "{tt.md.72.letter-spacing}"
           }
         },
-        "display-02(md)": {
+        "display-02 @md": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -482,7 +482,7 @@
             "letterSpacing": "{tt.md.52.letter-spacing}"
           }
         },
-        "display-02(sm)": {
+        "display-02 @sm": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -492,7 +492,7 @@
             "letterSpacing": "{tt.md.44.letter-spacing}"
           }
         },
-        "display-03(lg)": {
+        "display-03 @lg": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -502,7 +502,7 @@
             "letterSpacing": "{tt.md.72.letter-spacing}"
           }
         },
-        "display-03(md)": {
+        "display-03 @md": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
@@ -512,7 +512,7 @@
             "letterSpacing": "{tt.md.52.letter-spacing}"
           }
         },
-        "display-03(sm)": {
+        "display-03 @sm": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{tt.fontype}",
