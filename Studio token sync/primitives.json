@@ -1240,6 +1240,16 @@
             "letterSpacing": "{ro.rg.20.letter-spacing}"
           }
         },
+        "ro-it-20": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{ro.fontype}",
+            "fontWeight": "{font-style.italic}",
+            "lineHeight": "{ro.rg.20.line-height}",
+            "fontSize": "{ro.rg.20.size}",
+            "letterSpacing": "{ro.rg.20.letter-spacing}"
+          }
+        },
         "ro-rg-20-sh": {
           "$type": "typography",
           "$value": {
@@ -1255,6 +1265,16 @@
           "$value": {
             "fontFamily": "{ro.fontype}",
             "fontWeight": "{ro.rg.weight}",
+            "lineHeight": "{ro.rg.24.line-height}",
+            "fontSize": "{ro.rg.24.size}",
+            "letterSpacing": "{ro.rg.24.letter-spacing}"
+          }
+        },
+        "ro-it-24": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{ro.fontype}",
+            "fontWeight": "{font-style.italic}",
             "lineHeight": "{ro.rg.24.line-height}",
             "fontSize": "{ro.rg.24.size}",
             "letterSpacing": "{ro.rg.24.letter-spacing}"
