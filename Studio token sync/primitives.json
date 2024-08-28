@@ -547,9 +547,9 @@
           "$value": {
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.72.size}",
-            "lineHeight": "{tt.md.72.line-height}",
-            "letterSpacing": "{tt.md.72.letter-spacing}"
+            "fontSize": "{tt.md.64.size}",
+            "lineHeight": "{tt.md.64.line-height}",
+            "letterSpacing": "{tt.md.64.letter-spacing}"
           }
         },
         "display-02 @md": {
@@ -557,9 +557,9 @@
           "$value": {
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.52.size}",
-            "lineHeight": "{tt.md.52.line-height}",
-            "letterSpacing": "{tt.md.52.letter-spacing}"
+            "fontSize": "{tt.md.44.size}",
+            "lineHeight": "{tt.md.44.line-height}",
+            "letterSpacing": "{tt.md.44.letter-spacing}"
           }
         },
         "display-02 @sm": {
@@ -567,9 +567,9 @@
           "$value": {
             "fontFamily": "{tt.fontype}",
             "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.44.size}",
-            "lineHeight": "{tt.md.44.line-height}",
-            "letterSpacing": "{tt.md.44.letter-spacing}"
+            "fontSize": "{tt.md.36.size}",
+            "lineHeight": "{tt.md.36.line-height}",
+            "letterSpacing": "{tt.md.36.letter-spacing}"
           }
         },
         "display-03 @lg": {
