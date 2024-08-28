@@ -1405,7 +1405,7 @@
       }
     }
   },
-  "Proporties": {
+  "Properties": {
     "font-family": {
       "base": {
         "$type": "text",
@@ -1517,7 +1517,7 @@
     "tokenSetOrder": [
       "Semantics",
       "Primitives",
-      "Proporties"
+      "Properties"
     ]
   }
 }
