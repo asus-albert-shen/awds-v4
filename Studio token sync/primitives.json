@@ -1739,7 +1739,8 @@
       },
       "450": {
         "$type": "number",
-        "$value": "450"
+        "$value": "450",
+        "$description": "fontWeight variable for normal"
       },
       "500": {
         "$type": "number",
@@ -1748,7 +1749,8 @@
       },
       "600": {
         "$type": "number",
-        "$value": "600"
+        "$value": "600",
+        "$description": "fontWeight variable for bold"
       }
     },
     "font-style": {
