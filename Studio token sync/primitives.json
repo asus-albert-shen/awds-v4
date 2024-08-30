@@ -734,7 +734,7 @@
         },
         "weight": {
           "$type": "number",
-          "$value": "{font-weight.500}"
+          "$value": "{font-weight.semibold}"
         },
         "18-sh": {
           "size": {
@@ -923,7 +923,7 @@
         },
         "weight": {
           "$type": "number",
-          "$value": "{font-weight.400}"
+          "$value": "{font-weight.regular}"
         }
       }
     },
@@ -1099,7 +1099,7 @@
         },
         "weight": {
           "$type": "number",
-          "$value": "{font-weight.500}"
+          "$value": "{font-weight.medium}"
         }
       },
       "fontype": {
@@ -1249,7 +1249,7 @@
         },
         "weight": {
           "$type": "number",
-          "$value": "{font-weight.450}"
+          "$value": "{font-weight.normal}"
         }
       }
     },
@@ -1731,28 +1731,6 @@
         "$description": "fontSize variable for 72"
       }
     },
-    "font-weight": {
-      "400": {
-        "$type": "number",
-        "$value": "400",
-        "$description": "fontWeight variable for regular"
-      },
-      "450": {
-        "$type": "number",
-        "$value": "450",
-        "$description": "fontWeight variable for normal"
-      },
-      "500": {
-        "$type": "number",
-        "$value": "500",
-        "$description": "fontWeight variable for medium"
-      },
-      "600": {
-        "$type": "number",
-        "$value": "600",
-        "$description": "fontWeight variable for bold"
-      }
-    },
     "font-style": {
       "italic": {
         "$type": "text",
@@ -1761,6 +1739,24 @@
       "sb-italic": {
         "$type": "text",
         "$value": "SemiBold Italic"
+      }
+    },
+    "font-weight": {
+      "regular": {
+        "$type": "text",
+        "$value": "400"
+      },
+      "normal": {
+        "$type": "text",
+        "$value": "450"
+      },
+      "medium": {
+        "$type": "text",
+        "$value": "500"
+      },
+      "semibold": {
+        "$type": "text",
+        "$value": "600"
       }
     }
   },
