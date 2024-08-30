@@ -893,10 +893,6 @@
             "$value": "0"
           }
         },
-        "weight": {
-          "$type": "number",
-          "$value": "{font-weight.400}"
-        },
         "18-sh": {
           "size": {
             "$type": "number",
@@ -924,6 +920,10 @@
             "$type": "number",
             "$value": "0"
           }
+        },
+        "weight": {
+          "$type": "number",
+          "$value": "{font-weight.400}"
         }
       }
     },
@@ -1105,6 +1105,152 @@
       "fontype": {
         "$type": "text",
         "$value": "{font-family.superior}"
+      },
+      "nr": {
+        "13": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.13}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "16"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0.24"
+          }
+        },
+        "14": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.14}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "20"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0.16"
+          }
+        },
+        "16": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.16}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "24"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
+        },
+        "18": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.18}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "26"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
+        },
+        "20": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.20}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "28"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
+        },
+        "24": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.24}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "32"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
+        },
+        "14-sh": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.14}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "18"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0.16"
+          }
+        },
+        "16-sh": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.16}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "22"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
+        },
+        "18-sh": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.18}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "24"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
+        },
+        "20-sh": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.20}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "26"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
+        },
+        "weight": {
+          "$type": "number",
+          "$value": "{font-weight.450}"
+        }
       }
     },
     "Primitives": {
@@ -1401,6 +1547,106 @@
             "fontSize": "{tt.md.72.size}",
             "letterSpacing": "{tt.md.72.letter-spacing}"
           }
+        },
+        "tt-nr-13": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{tt.fontype}",
+            "fontWeight": "{tt.nr.weight}",
+            "lineHeight": "{tt.nr.13.line-height}",
+            "fontSize": "{tt.nr.13.size}",
+            "letterSpacing": "{tt.nr.13.letter-spacing}"
+          }
+        },
+        "tt-nr-14": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{tt.fontype}",
+            "fontWeight": "{tt.nr.weight}",
+            "lineHeight": "{tt.nr.14.line-height}",
+            "fontSize": "{tt.nr.14.size}",
+            "letterSpacing": "{tt.nr.14.letter-spacing}"
+          }
+        },
+        "tt-nr-14-sh": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{tt.fontype}",
+            "fontWeight": "{tt.nr.weight}",
+            "lineHeight": "{tt.nr.14-sh.line-height}",
+            "fontSize": "{tt.nr.14-sh.size}",
+            "letterSpacing": "{tt.nr.14-sh.letter-spacing}"
+          }
+        },
+        "tt-nr-16": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{tt.fontype}",
+            "fontWeight": "{tt.nr.weight}",
+            "lineHeight": "{tt.nr.16.line-height}",
+            "fontSize": "{tt.nr.16.size}",
+            "letterSpacing": "{tt.nr.16.letter-spacing}"
+          }
+        },
+        "tt-nr-16-sh": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{tt.fontype}",
+            "fontWeight": "{tt.nr.weight}",
+            "lineHeight": "{tt.nr.16-sh.line-height}",
+            "fontSize": "{tt.nr.16-sh.size}",
+            "letterSpacing": "{tt.nr.16-sh.letter-spacing}"
+          }
+        },
+        "tt-nr-18": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{tt.fontype}",
+            "fontWeight": "{tt.nr.weight}",
+            "lineHeight": "{tt.nr.18.line-height}",
+            "fontSize": "{tt.nr.18.size}",
+            "letterSpacing": "{tt.nr.18.letter-spacing}"
+          }
+        },
+        "tt-nr-18-sh": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{tt.fontype}",
+            "fontWeight": "{tt.nr.weight}",
+            "lineHeight": "{tt.nr.18-sh.line-height}",
+            "fontSize": "{tt.nr.18-sh.size}",
+            "letterSpacing": "{tt.nr.18-sh.letter-spacing}"
+          }
+        },
+        "tt-nr-20": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{tt.fontype}",
+            "fontWeight": "{tt.nr.weight}",
+            "lineHeight": "{tt.nr.20.line-height}",
+            "fontSize": "{tt.nr.20.size}",
+            "letterSpacing": "{tt.nr.20.letter-spacing}"
+          }
+        },
+        "tt-nr-20-sh": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{tt.fontype}",
+            "fontWeight": "{tt.nr.weight}",
+            "lineHeight": "{tt.nr.20-sh.line-height}",
+            "fontSize": "{tt.nr.20-sh.size}",
+            "letterSpacing": "{tt.nr.20-sh.letter-spacing}"
+          }
+        },
+        "tt-nr-24": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{tt.fontype}",
+            "fontWeight": "{tt.nr.weight}",
+            "lineHeight": "{tt.nr.24.line-height}",
+            "fontSize": "{tt.nr.24.size}",
+            "letterSpacing": "{tt.nr.24.letter-spacing}"
+          }
         }
       }
     }
@@ -1490,6 +1736,10 @@
         "$type": "number",
         "$value": "400",
         "$description": "fontWeight variable for regular"
+      },
+      "450": {
+        "$type": "number",
+        "$value": "450"
       },
       "500": {
         "$type": "number",
