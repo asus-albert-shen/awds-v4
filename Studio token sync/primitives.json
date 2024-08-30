@@ -1752,7 +1752,8 @@
       },
       "450": {
         "$type": "text",
-        "$value": "450"
+        "$value": "Normal",
+        "$description": "value 450 無法與 Figma 同步"
       },
       "500": {
         "$type": "text",
@@ -1761,10 +1762,6 @@
       "600": {
         "$type": "text",
         "$value": "600"
-      },
-      "normal": {
-        "$type": "number",
-        "$value": "450"
       }
     }
   },
