@@ -732,10 +732,6 @@
             "$value": "0"
           }
         },
-        "weight": {
-          "$type": "number",
-          "$value": "{font-weight.semibold}"
-        },
         "18-sh": {
           "size": {
             "$type": "number",
@@ -763,6 +759,10 @@
             "$type": "number",
             "$value": "0"
           }
+        },
+        "weight": {
+          "$type": "number",
+          "$value": "{font-weight.600}"
         }
       },
       "rg": {
@@ -923,7 +923,7 @@
         },
         "weight": {
           "$type": "number",
-          "$value": "{font-weight.regular}"
+          "$value": "{font-weight.400}"
         }
       }
     },
@@ -1099,7 +1099,7 @@
         },
         "weight": {
           "$type": "number",
-          "$value": "{font-weight.medium}"
+          "$value": "{font-weight.500}"
         }
       },
       "fontype": {
@@ -1249,7 +1249,7 @@
         },
         "weight": {
           "$type": "number",
-          "$value": "{font-weight.normal}"
+          "$value": "{font-weight.450}"
         }
       }
     },
@@ -1742,19 +1742,19 @@
       }
     },
     "font-weight": {
-      "regular": {
+      "400": {
         "$type": "text",
         "$value": "400"
       },
-      "normal": {
+      "450": {
         "$type": "text",
-        "$value": "450"
+        "$value": "700"
       },
-      "medium": {
+      "500": {
         "$type": "text",
         "$value": "500"
       },
-      "semibold": {
+      "600": {
         "$type": "text",
         "$value": "600"
       }
