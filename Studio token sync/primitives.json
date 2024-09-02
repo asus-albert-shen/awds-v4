@@ -201,9 +201,9 @@
           "$value": {
             "fontFamily": "{base.font}",
             "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.24.size}",
-            "lineHeight": "{ro.rg.24.line-height}",
-            "letterSpacing": "{ro.rg.24.letter-spacing}"
+            "fontSize": "{ro.rg.20.size}",
+            "lineHeight": "{ro.rg.20.line-height}",
+            "letterSpacing": "{ro.rg.20.letter-spacing}"
           }
         },
         "paragraph-01 @md": {
@@ -217,6 +217,36 @@
           }
         },
         "paragraph-01 @sm": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.rg.weight}",
+            "fontSize": "{ro.rg.18.size}",
+            "lineHeight": "{ro.rg.18.line-height}",
+            "letterSpacing": "{ro.rg.18.letter-spacing}"
+          }
+        },
+        "paragraph-02 @lg": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.rg.weight}",
+            "fontSize": "{ro.rg.24.size}",
+            "lineHeight": "{ro.rg.24.line-height}",
+            "letterSpacing": "{ro.rg.24.letter-spacing}"
+          }
+        },
+        "paragraph-02 @md": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.rg.weight}",
+            "fontSize": "{ro.rg.24.size}",
+            "lineHeight": "{ro.rg.24.line-height}",
+            "letterSpacing": "{ro.rg.24.letter-spacing}"
+          }
+        },
+        "paragraph-02 @sm": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{base.font}",
@@ -638,10 +668,10 @@
           "$type": "typography",
           "$value": {
             "fontFamily": "{base.font}",
-            "fontSize": "{ro.rg.20.size}",
-            "lineHeight": "{ro.rg.20.line-height}",
+            "fontSize": "{ro.rg.24.size}",
+            "lineHeight": "{ro.rg.24.line-height}",
             "fontWeight": "{font-style.italic}",
-            "letterSpacing": "{ro.rg.20.letter-spacing}"
+            "letterSpacing": "{ro.rg.24.letter-spacing}"
           }
         },
         "quote-04 @sm": {
