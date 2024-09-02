@@ -297,6 +297,26 @@
             "lineHeight": "{ro.sb.16-sh.line-height}",
             "letterSpacing": "{ro.sb.16-sh.letter-spacing}"
           }
+        },
+        "heading-03-sh": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.sb.weight}",
+            "fontSize": "{ro.sb.18-sh.size}",
+            "lineHeight": "{ro.sb.18-sh.line-height}",
+            "letterSpacing": "{ro.sb.18-sh.letter-spacing}"
+          }
+        },
+        "heading-04-sh": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.sb.weight}",
+            "fontSize": "{ro.sb.20-sh.size}",
+            "lineHeight": "{ro.sb.20-sh.line-height}",
+            "letterSpacing": "{ro.sb.20-sh.letter-spacing}"
+          }
         }
       },
       "Fluid Heading": {
