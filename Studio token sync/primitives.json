@@ -634,6 +634,16 @@
             "letterSpacing": "{ro.rg.24.letter-spacing}"
           }
         },
+        "quote-04 @md": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontSize": "{ro.rg.20.size}",
+            "lineHeight": "{ro.rg.20.line-height}",
+            "fontWeight": "{font-style.italic}",
+            "letterSpacing": "{ro.rg.20.letter-spacing}"
+          }
+        },
         "quote-04 @sm": {
           "$type": "typography",
           "$value": {
