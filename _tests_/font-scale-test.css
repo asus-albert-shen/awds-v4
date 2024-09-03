@@ -1,0 +1,334 @@
+@charset "UTF-8";
+:lang(tw):root, :lang(zh-TW):root, :lang(zh-tw):root {
+  font-family: Roboto, Microsoft Yahei, sans-serif;
+}
+:lang(ja-jp):root, :lang(jp):root {
+  font-family: Roboto, メイリオ, ヒラギノ 角ゴシックProN W3, 小塚ゴシック Pro H, KozGoPr6N-Heavy, KozGoPro-Heavy, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+}
+:lang(cn):root, :lang(zh-CN):root, :lang(zh-cn):root {
+  font-family: Roboto, 微软雅黑, sans-serif;
+}
+:lang(ko):root, :lang(ko-KR):root, :lang(ko-kr):root {
+  font-family: Roboto, Nanum Gothic, Malgun Gothic, sans-serif;
+}
+
+.tt-md-72, .tt-md-64, .tt-md-52, .tt-md-44, .tt-md-36, .tt-md-30, .tt-md-24, .tt-md-20, .tt-md-18, .tt-md-16, .tt-md-14, .tt-nr-24, .tt-nr-20-sh, .tt-nr-20, .tt-nr-18-sh, .tt-nr-18, .tt-nr-16-sh, .tt-nr-16, .tt-nr-14-sh, .tt-nr-14, .tt-nr-13 {
+  font-family: "TTNormsProMedium, sans-serif";
+}
+.tt-md-72:lang(tw), .tt-md-64:lang(tw), .tt-md-52:lang(tw), .tt-md-44:lang(tw), .tt-md-36:lang(tw), .tt-md-30:lang(tw), .tt-md-24:lang(tw), .tt-md-20:lang(tw), .tt-md-18:lang(tw), .tt-md-16:lang(tw), .tt-md-14:lang(tw), .tt-nr-24:lang(tw), .tt-nr-20-sh:lang(tw), .tt-nr-20:lang(tw), .tt-nr-18-sh:lang(tw), .tt-nr-18:lang(tw), .tt-nr-16-sh:lang(tw), .tt-nr-16:lang(tw), .tt-nr-14-sh:lang(tw), .tt-nr-14:lang(tw), .tt-nr-13:lang(tw), .tt-md-72:lang(zh-TW), .tt-md-64:lang(zh-TW), .tt-md-52:lang(zh-TW), .tt-md-44:lang(zh-TW), .tt-md-36:lang(zh-TW), .tt-md-30:lang(zh-TW), .tt-md-24:lang(zh-TW), .tt-md-20:lang(zh-TW), .tt-md-18:lang(zh-TW), .tt-md-16:lang(zh-TW), .tt-md-14:lang(zh-TW), .tt-nr-24:lang(zh-TW), .tt-nr-20-sh:lang(zh-TW), .tt-nr-20:lang(zh-TW), .tt-nr-18-sh:lang(zh-TW), .tt-nr-18:lang(zh-TW), .tt-nr-16-sh:lang(zh-TW), .tt-nr-16:lang(zh-TW), .tt-nr-14-sh:lang(zh-TW), .tt-nr-14:lang(zh-TW), .tt-nr-13:lang(zh-TW), .tt-md-72:lang(zh-tw), .tt-md-64:lang(zh-tw), .tt-md-52:lang(zh-tw), .tt-md-44:lang(zh-tw), .tt-md-36:lang(zh-tw), .tt-md-30:lang(zh-tw), .tt-md-24:lang(zh-tw), .tt-md-20:lang(zh-tw), .tt-md-18:lang(zh-tw), .tt-md-16:lang(zh-tw), .tt-md-14:lang(zh-tw), .tt-nr-24:lang(zh-tw), .tt-nr-20-sh:lang(zh-tw), .tt-nr-20:lang(zh-tw), .tt-nr-18-sh:lang(zh-tw), .tt-nr-18:lang(zh-tw), .tt-nr-16-sh:lang(zh-tw), .tt-nr-16:lang(zh-tw), .tt-nr-14-sh:lang(zh-tw), .tt-nr-14:lang(zh-tw), .tt-nr-13:lang(zh-tw) {
+  font-family: "TTNormsProMedium", Microsoft Yahei, sans-serif;
+  font-weight: 600;
+}
+.tt-md-72:lang(ja-jp), .tt-md-64:lang(ja-jp), .tt-md-52:lang(ja-jp), .tt-md-44:lang(ja-jp), .tt-md-36:lang(ja-jp), .tt-md-30:lang(ja-jp), .tt-md-24:lang(ja-jp), .tt-md-20:lang(ja-jp), .tt-md-18:lang(ja-jp), .tt-md-16:lang(ja-jp), .tt-md-14:lang(ja-jp), .tt-nr-24:lang(ja-jp), .tt-nr-20-sh:lang(ja-jp), .tt-nr-20:lang(ja-jp), .tt-nr-18-sh:lang(ja-jp), .tt-nr-18:lang(ja-jp), .tt-nr-16-sh:lang(ja-jp), .tt-nr-16:lang(ja-jp), .tt-nr-14-sh:lang(ja-jp), .tt-nr-14:lang(ja-jp), .tt-nr-13:lang(ja-jp), .tt-md-72:lang(jp), .tt-md-64:lang(jp), .tt-md-52:lang(jp), .tt-md-44:lang(jp), .tt-md-36:lang(jp), .tt-md-30:lang(jp), .tt-md-24:lang(jp), .tt-md-20:lang(jp), .tt-md-18:lang(jp), .tt-md-16:lang(jp), .tt-md-14:lang(jp), .tt-nr-24:lang(jp), .tt-nr-20-sh:lang(jp), .tt-nr-20:lang(jp), .tt-nr-18-sh:lang(jp), .tt-nr-18:lang(jp), .tt-nr-16-sh:lang(jp), .tt-nr-16:lang(jp), .tt-nr-14-sh:lang(jp), .tt-nr-14:lang(jp), .tt-nr-13:lang(jp) {
+  font-family: "TTNormsProMedium", メイリオ, ヒラギノ 角ゴシックProN W3, 小塚ゴシック Pro H, KozGoPr6N-Heavy, KozGoPro-Heavy, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+  font-weight: 600;
+}
+.tt-md-72:lang(cn), .tt-md-64:lang(cn), .tt-md-52:lang(cn), .tt-md-44:lang(cn), .tt-md-36:lang(cn), .tt-md-30:lang(cn), .tt-md-24:lang(cn), .tt-md-20:lang(cn), .tt-md-18:lang(cn), .tt-md-16:lang(cn), .tt-md-14:lang(cn), .tt-nr-24:lang(cn), .tt-nr-20-sh:lang(cn), .tt-nr-20:lang(cn), .tt-nr-18-sh:lang(cn), .tt-nr-18:lang(cn), .tt-nr-16-sh:lang(cn), .tt-nr-16:lang(cn), .tt-nr-14-sh:lang(cn), .tt-nr-14:lang(cn), .tt-nr-13:lang(cn), .tt-md-72:lang(zh-CN), .tt-md-64:lang(zh-CN), .tt-md-52:lang(zh-CN), .tt-md-44:lang(zh-CN), .tt-md-36:lang(zh-CN), .tt-md-30:lang(zh-CN), .tt-md-24:lang(zh-CN), .tt-md-20:lang(zh-CN), .tt-md-18:lang(zh-CN), .tt-md-16:lang(zh-CN), .tt-md-14:lang(zh-CN), .tt-nr-24:lang(zh-CN), .tt-nr-20-sh:lang(zh-CN), .tt-nr-20:lang(zh-CN), .tt-nr-18-sh:lang(zh-CN), .tt-nr-18:lang(zh-CN), .tt-nr-16-sh:lang(zh-CN), .tt-nr-16:lang(zh-CN), .tt-nr-14-sh:lang(zh-CN), .tt-nr-14:lang(zh-CN), .tt-nr-13:lang(zh-CN), .tt-md-72:lang(zh-cn), .tt-md-64:lang(zh-cn), .tt-md-52:lang(zh-cn), .tt-md-44:lang(zh-cn), .tt-md-36:lang(zh-cn), .tt-md-30:lang(zh-cn), .tt-md-24:lang(zh-cn), .tt-md-20:lang(zh-cn), .tt-md-18:lang(zh-cn), .tt-md-16:lang(zh-cn), .tt-md-14:lang(zh-cn), .tt-nr-24:lang(zh-cn), .tt-nr-20-sh:lang(zh-cn), .tt-nr-20:lang(zh-cn), .tt-nr-18-sh:lang(zh-cn), .tt-nr-18:lang(zh-cn), .tt-nr-16-sh:lang(zh-cn), .tt-nr-16:lang(zh-cn), .tt-nr-14-sh:lang(zh-cn), .tt-nr-14:lang(zh-cn), .tt-nr-13:lang(zh-cn) {
+  font-family: "TTNormsProMedium", 微软雅黑, sans-serif;
+  font-weight: 600;
+}
+.tt-md-72:lang(ko), .tt-md-64:lang(ko), .tt-md-52:lang(ko), .tt-md-44:lang(ko), .tt-md-36:lang(ko), .tt-md-30:lang(ko), .tt-md-24:lang(ko), .tt-md-20:lang(ko), .tt-md-18:lang(ko), .tt-md-16:lang(ko), .tt-md-14:lang(ko), .tt-nr-24:lang(ko), .tt-nr-20-sh:lang(ko), .tt-nr-20:lang(ko), .tt-nr-18-sh:lang(ko), .tt-nr-18:lang(ko), .tt-nr-16-sh:lang(ko), .tt-nr-16:lang(ko), .tt-nr-14-sh:lang(ko), .tt-nr-14:lang(ko), .tt-nr-13:lang(ko), .tt-md-72:lang(ko-KR), .tt-md-64:lang(ko-KR), .tt-md-52:lang(ko-KR), .tt-md-44:lang(ko-KR), .tt-md-36:lang(ko-KR), .tt-md-30:lang(ko-KR), .tt-md-24:lang(ko-KR), .tt-md-20:lang(ko-KR), .tt-md-18:lang(ko-KR), .tt-md-16:lang(ko-KR), .tt-md-14:lang(ko-KR), .tt-nr-24:lang(ko-KR), .tt-nr-20-sh:lang(ko-KR), .tt-nr-20:lang(ko-KR), .tt-nr-18-sh:lang(ko-KR), .tt-nr-18:lang(ko-KR), .tt-nr-16-sh:lang(ko-KR), .tt-nr-16:lang(ko-KR), .tt-nr-14-sh:lang(ko-KR), .tt-nr-14:lang(ko-KR), .tt-nr-13:lang(ko-KR), .tt-md-72:lang(ko-kr), .tt-md-64:lang(ko-kr), .tt-md-52:lang(ko-kr), .tt-md-44:lang(ko-kr), .tt-md-36:lang(ko-kr), .tt-md-30:lang(ko-kr), .tt-md-24:lang(ko-kr), .tt-md-20:lang(ko-kr), .tt-md-18:lang(ko-kr), .tt-md-16:lang(ko-kr), .tt-md-14:lang(ko-kr), .tt-nr-24:lang(ko-kr), .tt-nr-20-sh:lang(ko-kr), .tt-nr-20:lang(ko-kr), .tt-nr-18-sh:lang(ko-kr), .tt-nr-18:lang(ko-kr), .tt-nr-16-sh:lang(ko-kr), .tt-nr-16:lang(ko-kr), .tt-nr-14-sh:lang(ko-kr), .tt-nr-14:lang(ko-kr), .tt-nr-13:lang(ko-kr) {
+  font-family: "TTNormsProMedium", Nanum Gothic, Malgun Gothic, sans-serif;
+  font-weight: 600;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.ro-rg-12 {
+  font-size: 0.75rem;
+  line-height: 1.333;
+  letter-spacing: 0.02rem;
+}
+
+.ro-rg-13 {
+  font-size: 0.812rem;
+  line-height: 1.231;
+  letter-spacing: 0.015rem;
+}
+
+.ro-rg-14 {
+  font-size: 0.875rem;
+  line-height: 1.429;
+  letter-spacing: 0.01rem;
+}
+
+.ro-rg-14-sh {
+  font-size: 0.875rem;
+  line-height: 1.286;
+  letter-spacing: 0.01rem;
+}
+
+.ro-rg-16 {
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.ro-rg-16-sh {
+  font-size: 1rem;
+  line-height: 1.375;
+  letter-spacing: 0;
+}
+
+.ro-rg-18 {
+  font-size: 1.125rem;
+  line-height: 1.444;
+  letter-spacing: 0;
+}
+
+.ro-rg-18-sh {
+  font-size: 1.125rem;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.ro-rg-20 {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.ro-it-20 {
+  font-style: italic;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.ro-rg-20-sh {
+  font-size: 1.25rem;
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+.ro-rg-24 {
+  font-size: 1.5rem;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.ro-it-24 {
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.ro-sb-13 {
+  font-weight: 600;
+  font-size: 0.812rem;
+  line-height: 1.231;
+  letter-spacing: 0.015rem;
+}
+
+.ro-sb-14 {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.429;
+  letter-spacing: 0.01rem;
+}
+
+.ro-sb-14-sh {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.286;
+  letter-spacing: 0.01rem;
+}
+
+.ro-sb-16 {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.ro-sb-16-sh {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.375;
+  letter-spacing: 0;
+}
+
+.ro-sb-18 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.444;
+  letter-spacing: 0;
+}
+
+.ro-sb-18-sh {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.ro-sb-16 {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.ro-sb-20-sh {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+.tt-nr-13 {
+  font-weight: 450;
+  font-size: 0.812rem;
+  line-height: 1.231;
+  letter-spacing: 0.015rem;
+}
+
+.tt-nr-14 {
+  font-weight: 450;
+  font-size: 0.875rem;
+  line-height: 1.429;
+  letter-spacing: 0.01rem;
+}
+
+.tt-nr-14-sh {
+  font-weight: 450;
+  font-size: 0.875rem;
+  line-height: 1.286;
+  letter-spacing: 0.01rem;
+}
+
+.tt-nr-16 {
+  font-weight: 450;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.tt-nr-16-sh {
+  font-weight: 450;
+  font-size: 1rem;
+  line-height: 1.375;
+  letter-spacing: 0;
+}
+
+.tt-nr-18 {
+  font-weight: 450;
+  font-size: 1.125rem;
+  line-height: 1.444;
+  letter-spacing: 0;
+}
+
+.tt-nr-18-sh {
+  font-weight: 450;
+  font-size: 1.125rem;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.tt-nr-20 {
+  font-weight: 450;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.tt-nr-20-sh {
+  font-weight: 450;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+.tt-nr-24 {
+  font-weight: 450;
+  font-size: 1.5rem;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.tt-md-14 {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.429;
+  letter-spacing: 0.01rem;
+}
+
+.tt-md-16 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.tt-md-18 {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.444;
+  letter-spacing: 0;
+}
+
+.tt-md-20 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.tt-md-24 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.tt-md-30 {
+  font-weight: 500;
+  font-size: 1.875rem;
+  line-height: 1.267;
+  letter-spacing: 0;
+}
+
+.tt-md-36 {
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 1.222;
+  letter-spacing: 0;
+}
+
+.tt-md-44 {
+  font-weight: 500;
+  font-size: 2.75rem;
+  line-height: 1.182;
+  letter-spacing: 0;
+}
+
+.tt-md-52 {
+  font-weight: 500;
+  font-size: 3.25rem;
+  line-height: 1.154;
+  letter-spacing: 0;
+}
+
+.tt-md-64 {
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 1.125;
+  letter-spacing: -0.04rem;
+}
+
+.tt-md-72 {
+  font-weight: 500;
+  font-size: 4.5rem;
+  line-height: 1.111;
+  letter-spacing: -0.04rem;
+}
+
+/*
+.display-display-03 {
+    @include display-display-03();
+}
+
+*//*# sourceMappingURL=font-scale-test.css.map */

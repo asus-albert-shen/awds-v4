@@ -1,0 +1,612 @@
+// #Fontype-v4.0
+
+// ##Breakpoint
+$breakpoint: (
+    sm: 20rem, //320px
+    md: 45.6875rem, //731px
+    lg: 80rem //1280px
+);
+
+// ##Font weights
+$weights: (
+    rg: 400,
+    nr: 450,
+    md: 500,
+    sb: 600
+);
+
+// ##Font sizes properties
+$sizes: (
+    12: (0.75rem, 1.333, 0.02rem),
+    13: (0.812rem, 1.231, 0.015rem),
+    14: (0.875rem, 1.429, 0.01rem),
+    14-sh: (0.875rem, 1.286, 0.01rem),
+    16: (1rem, 1.5, 0),
+    16-sh: (1rem, 1.375, 0),
+    18: (1.125rem, 1.444, 0),
+    18-sh: (1.125rem, 1.333, 0),
+    20: (1.25rem, 1.4, 0),
+    20-sh: (1.25rem, 1.3, 0),
+    24: (1.5rem, 1.333, 0),
+    30: (1.875rem, 1.267, 0),
+    36: (2.25rem, 1.222, 0),
+    44: (2.75rem, 1.182, 0),
+    52: (3.25rem, 1.154, 0),
+    64: (4rem, 1.125, -0.04rem),
+    72: (4.5rem, 1.111, -0.04rem)
+);
+
+// ##Localize
+// ###Local fonts map
+$local-fonts: (
+  "default": "Roboto",
+  "TW": "Microsoft Yahei",
+  "JP": "メイリオ, ヒラギノ 角ゴシックProN W3, 小塚ゴシック Pro H, KozGoPr6N-Heavy, KozGoPro-Heavy, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ Ｐゴシック, MS PGothic",
+  "CN": "微软雅黑",
+  "KR": "Nanum Gothic, Malgun Gothic"
+);
+
+// ###Font family deployment
+// ###Default US
+@mixin set-font($country, $latin-font: map-get($local-fonts, "default")) {
+  @if map-has-key($local-fonts, $country) and map-get($local-fonts, $country) {
+    font-family: #{$latin-font}, #{map-get($local-fonts, $country)}, sans-serif;
+  } @else {
+    font-family: #{$latin-font}, sans-serif;
+  }
+}
+
+// ###Locals base font
+%base-font {
+  &:lang(tw), &:lang(zh-TW), &:lang(zh-tw) {
+    @include set-font("TW");
+  }
+  &:lang(ja-jp), &:lang(jp) {
+    @include set-font("JP");
+  }
+  &:lang(cn), &:lang(zh-CN), &:lang(zh-cn) {
+    @include set-font("CN");
+  }
+  &:lang(ko), &:lang(ko-KR), &:lang(ko-kr) {
+    @include set-font("KR");
+  }
+}
+
+// ###Locals superior font
+%superior-font {
+  font-family: "TTNormsProMedium, sans-serif";
+  &:lang(tw), &:lang(zh-TW), &:lang(zh-tw) {
+    font-family: "TTNormsProMedium", #{map-get($local-fonts, "TW")}, sans-serif;
+    font-weight: map-get($weights , sb )
+  }
+  &:lang(ja-jp), &:lang(jp) {
+    font-family: "TTNormsProMedium", #{map-get($local-fonts, "JP")}, sans-serif;
+    font-weight: map-get($weights , sb )
+  }
+  &:lang(cn), &:lang(zh-CN), &:lang(zh-cn) {
+    font-family: "TTNormsProMedium", #{map-get($local-fonts, "CN")}, sans-serif;
+    font-weight: map-get($weights , sb )
+  }
+  &:lang(ko), &:lang(ko-KR), &:lang(ko-kr) {
+    font-family: "TTNormsProMedium", #{map-get($local-fonts, "KR")}, sans-serif;
+    font-weight: map-get($weights , sb )
+  }
+}
+
+// ##HTML font style
+// ###全域
+:root {
+    //@include set-font("");
+    @extend %base-font;
+}
+strong {
+    font-weight: map-get($weights, sb);
+}
+// ###italic;
+@mixin italic {
+    font-style: italic;
+}
+//
+
+
+// ###Primitives token deploy
+@mixin font-style($font-key, $weight-key, $size-key) {
+    $size: map-get($sizes, $size-key);
+    @if $font-key == 'ro' {
+        //@extend %base-font; // ~?設定成root就好?~
+    } @else {
+        @if $font-key == 'tt' {
+            @extend %superior-font;
+        } @else {
+            font-family: null;
+        }
+    }
+
+    @if $weight-key == it {
+        @include italic();
+    } @else {
+        @if $weight-key != rg {
+            font-weight: map-get($weights, $weight-key);
+        }
+    }
+    font-size: nth($size, 1);
+    line-height: nth($size, 2);
+    letter-spacing: nth($size, 3);
+}
+
+// ###Individual mixins
+@mixin ro-rg-12 {
+    @include font-style('ro', rg, 12);
+}
+@mixin ro-rg-13 {
+    @include font-style('ro', rg, 13);
+}
+@mixin ro-rg-14 {
+    @include font-style('ro', rg, 14);
+}
+@mixin ro-rg-14-sh {
+    @include font-style('ro', rg, 14-sh);
+}
+@mixin ro-rg-16 {
+    @include font-style('ro', rg, 16);
+}
+@mixin ro-rg-16-sh {
+    @include font-style('ro', rg, 16-sh);
+}
+@mixin ro-rg-18 {
+    @include font-style('ro', rg, 18);
+}
+@mixin ro-rg-18-sh {
+    @include font-style('ro', rg, 18-sh);
+}
+@mixin ro-rg-20 {
+    @include font-style('ro', rg, 20);
+}
+@mixin ro-it-20 {
+    @include font-style('ro', it, 20);
+}
+@mixin ro-rg-20-sh {
+    @include font-style('ro', rg, 20-sh);
+}
+@mixin ro-rg-24 {
+    @include font-style('ro', rg, 24);
+}
+@mixin ro-it-24 {
+    @include font-style('ro', it, 24);
+}
+@mixin ro-sb-13 {
+    @include font-style('ro', sb, 13);
+}
+@mixin ro-sb-14 {
+    @include font-style('ro', sb, 14);
+}
+@mixin ro-sb-14-sh {
+    @include font-style('ro', sb, 14-sh);
+}
+@mixin ro-sb-16 {
+    @include font-style('ro', sb, 16);
+}
+@mixin ro-sb-16-sh {
+    @include font-style('ro', sb, 16-sh);
+}
+@mixin ro-sb-18 {
+    @include font-style('ro', sb, 18);
+}
+@mixin ro-sb-18-sh {
+    @include font-style('ro', sb, 18-sh);
+}
+@mixin ro-sb-20 {
+    @include font-style('ro', sb, 20);
+}
+@mixin ro-sb-20-sh {
+    @include font-style('ro', sb, 20-sh);
+}
+@mixin tt-md-14 {
+    @include font-style('tt', md, 14);
+}
+@mixin tt-md-16 {
+    @include font-style('tt', md, 16);
+}
+@mixin tt-md-18 {
+    @include font-style('tt', md, 18);
+}
+@mixin tt-md-20 {
+    @include font-style('tt', md, 20);
+}
+@mixin tt-md-24 {
+    @include font-style('tt', md, 24);
+}
+@mixin tt-md-30 {
+    @include font-style('tt', md, 30);
+}
+@mixin tt-md-36 {
+    @include font-style('tt', md, 36);
+}
+@mixin tt-md-44 {
+    @include font-style('tt', md, 44);
+}
+@mixin tt-md-52 {
+    @include font-style('tt', md, 52);
+}
+@mixin tt-md-64 {
+    @include font-style('tt', md, 64);
+}
+@mixin tt-md-72 {
+    @include font-style('tt', md, 72);
+}
+@mixin tt-nr-13 {
+    @include font-style('tt', nr, 13)
+}
+@mixin tt-nr-14 {
+    @include font-style('tt', nr, 14)
+}
+@mixin tt-nr-14-sh {
+    @include font-style('tt', nr, 14-sh)
+}
+@mixin tt-nr-16 {
+    @include font-style('tt', nr, 16)
+}
+@mixin tt-nr-16-sh {
+    @include font-style('tt', nr, 16-sh)
+}
+@mixin tt-nr-18 {
+    @include font-style('tt', nr, 18)
+}
+@mixin tt-nr-18-sh {
+    @include font-style('tt', nr, 18-sh)
+}
+@mixin tt-nr-20 {
+    @include font-style('tt', nr, 20)
+}
+@mixin tt-nr-20-sh {
+    @include font-style('tt', nr, 20-sh)
+}
+@mixin tt-nr-24 {
+    @include font-style('tt', nr, 24)
+}
+
+// ###驗證
+
+.ro-rg-12 {
+    @include ro-rg-12();
+}
+
+.ro-rg-13 {
+    @include ro-rg-13();
+}
+.ro-rg-14 {
+    @include ro-rg-14();
+}
+.ro-rg-14-sh {
+    @include ro-rg-14-sh();
+}
+.ro-rg-16 {
+    @include ro-rg-16();
+}
+.ro-rg-16-sh {
+    @include ro-rg-16-sh();
+}
+.ro-rg-18 {
+    @include ro-rg-18();
+}
+.ro-rg-18-sh {
+    @include ro-rg-18-sh();
+}
+.ro-rg-20 {
+    @include ro-rg-20();
+}
+.ro-it-20 {
+    @include ro-it-20();
+}
+.ro-rg-20-sh {
+    @include ro-rg-20-sh();
+}
+.ro-rg-24 {
+    @include ro-rg-24();
+}
+.ro-it-24 {
+    @include ro-it-24();
+}
+.ro-sb-13 {
+    @include ro-sb-13();
+}
+.ro-sb-14 {
+    @include ro-sb-14();
+}
+.ro-sb-14-sh {
+    @include ro-sb-14-sh();
+}
+.ro-sb-16 {
+    @include ro-sb-16();
+}
+.ro-sb-16-sh {
+    @include ro-sb-16-sh();
+}
+.ro-sb-18 {
+    @include ro-sb-18();
+}
+.ro-sb-18-sh {
+    @include ro-sb-18-sh();
+}
+.ro-sb-16 {
+    @include ro-sb-16();
+}
+.ro-sb-20-sh {
+    @include ro-sb-20-sh();
+}
+
+.tt-nr-13 {
+    @include tt-nr-13();
+}
+.tt-nr-14 {
+    @include tt-nr-14();
+}
+.tt-nr-14-sh {
+    @include tt-nr-14-sh();
+}
+.tt-nr-16 {
+    @include tt-nr-16();
+}
+.tt-nr-16-sh {
+    @include tt-nr-16-sh();
+}
+.tt-nr-18 {
+    @include tt-nr-18();
+}
+.tt-nr-18-sh {
+    @include tt-nr-18-sh();
+}
+.tt-nr-20 {
+    @include tt-nr-20();
+}
+.tt-nr-20-sh {
+    @include tt-nr-20-sh();
+}
+.tt-nr-24 {
+    @include tt-nr-24();
+}
+
+
+.tt-md-14 {
+    @include tt-md-14();
+}
+.tt-md-16 {
+    @include tt-md-16();
+}
+.tt-md-18 {
+    @include tt-md-18();
+}
+.tt-md-20 {
+    @include tt-md-20();
+}
+.tt-md-24 {
+    @include tt-md-24();
+}
+.tt-md-30 {
+    @include tt-md-30();
+}
+.tt-md-36 {
+    @include tt-md-36();
+}
+.tt-md-44 {
+    @include tt-md-44();
+}
+.tt-md-52 {
+    @include tt-md-52();
+}
+.tt-md-64 {
+    @include tt-md-64();
+}
+.tt-md-72 {
+    @include tt-md-72();
+}
+
+
+//Semantic token deploy
+@mixin label-01() {
+    @include ro-rg-12();
+}
+
+@mixin label-02() {
+    @include ro-rg-13();
+}
+
+@mixin label-03() {
+    @include ro-rg-14();
+}
+
+@mixin body-01() {
+    @include ro-rg-14();
+}
+
+@mixin body-02() {
+    @include ro-rg-16();
+}
+
+@mixin body-03() {
+    @include ro-rg-18();
+}
+
+@mixin body-04() {
+    @include ro-rg-20();
+}
+
+@mixin body-01-sh() {
+    @include ro-rg-14-sh();
+}
+
+@mixin body-02-sh() {
+    @include ro-rg-16-sh();
+}
+
+@mixin body-03-sh() {
+    @include ro-rg-18-sh();
+}
+
+@mixin body-04-sh() {
+    @include ro-rg-20-sh();
+}
+
+@mixin heading-01() {
+    @include tt-md-14();
+}
+
+@mixin heading-02() {
+    @include tt-md-16();
+}
+
+@mixin heading-03() {
+    @include tt-md-18();
+}
+
+@mixin heading-04() {
+    @include tt-md-20();
+}
+
+@mixin heading-00-sh() {
+    @include ro-sb-13();
+}
+
+@mixin heading-01-sh() {
+    @include ro-sb-14-sh();
+}
+
+@mixin heading-02-sh() {
+    @include ro-sb-16-sh();
+}
+
+@mixin heading-03-sh() {
+    @include ro-sb-18-sh();
+}
+
+@mixin heading-04-sh() {
+    @include ro-sb-20-sh();
+}
+
+@mixin quote-04() {
+    @include ro-it-24();
+    @media (min-width: map-get($breakpoint, md)) {
+        @include font-style('','', 20);
+    }
+    @media (min-width: map-get($breakpoint, lg)) {
+        @include font-style('','', 20);
+    }
+}
+
+@mixin paragraph-01() {
+    @include ro-rg-24();
+    @media (min-width: map-get($breakpoint, md)) {
+        @include font-style('','', 20);
+    }
+    @media (min-width: map-get($breakpoint, lg)) {
+        @include font-style('','', 20);
+    }
+}
+
+@mixin fluid-heading-02() {
+    @include tt-md-14();
+    @media (min-width: map-get($breakpoint, md)) {
+        @include font-style('','', 16);
+    }
+    @media (min-width: map-get($breakpoint, lg)) {
+        @include font-style('','', 16);
+    }
+}
+
+@mixin fluid-heading-03() {
+    @include tt-md-16();
+    @media (min-width: map-get($breakpoint, md)) {
+        @include font-style('','', 18);
+    }
+    @media (min-width: map-get($breakpoint, lg)) {
+        @include font-style('','', 18);
+    }
+}
+
+@mixin fluid-heading-04() {
+    @include tt-md-18();
+    @media (min-width: map-get($breakpoint, md)) {
+        @include font-style('','', 18);
+    }
+    @media (min-width: map-get($breakpoint, lg)) {
+        @include font-style('','', 20);
+    }
+}
+
+@mixin fluid-heading-05() {
+    @include tt-md-20();
+    @media (min-width: map-get($breakpoint, md)) {
+        @include font-style('','', 20);
+    }
+    @media (min-width: map-get($breakpoint, lg)) {
+        @include font-style('','', 24);
+    }
+}
+
+@mixin fluid-heading-06() {
+    @include tt-md-24();
+    @media (min-width: map-get($breakpoint, md)) {
+        @include font-style('','', 24);
+    }
+    @media (min-width: map-get($breakpoint, lg)) {
+        @include font-style('','', 30);
+    }
+}
+
+@mixin fluid-heading-07() {
+    @include tt-md-30();
+    @media (min-width: map-get($breakpoint, md)) {
+        @include font-style('','', 30);
+    }
+    @media (min-width: map-get($breakpoint, lg)) {
+        @include font-style('','', 36);
+    }
+}
+
+@mixin fluid-heading-08() {
+    @include tt-md-30();
+    @media (min-width: map-get($breakpoint, md)) {
+        @include font-style('','', 36);
+    }
+    @media (min-width: map-get($breakpoint, lg)) {
+        @include font-style('','', 44);
+    }
+}
+
+@mixin display-display-01() {
+    @include tt-md-36();
+    @media (min-width: map-get($breakpoint, md)) {
+        @include font-style('','', 44);
+    }
+    @media (min-width: map-get($breakpoint, lg)) {
+        @include font-style('','', 52);
+    }
+}
+
+@mixin display-display-02() {
+    @include tt-md-36();
+    @media (min-width: map-get($breakpoint, md)) {
+        @include font-style('','', 44);
+    }
+    @media (min-width: map-get($breakpoint, lg)) {
+        @include font-style('','', 64);
+    }
+}
+
+@mixin display-display-03() {
+    @include tt-md-36();
+    @media (min-width: map-get($breakpoint, md)) {
+        @include font-style('','', 52);
+    }
+    @media (min-width: map-get($breakpoint, lg)) {
+        @include font-style('','', 72);
+    }
+}
+
+// ###驗證
+/*
+.display-display-03 {
+    @include display-display-03();
+}
+
+*/
