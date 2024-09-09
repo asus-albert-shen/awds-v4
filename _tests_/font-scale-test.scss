@@ -101,7 +101,7 @@ $local-fonts: (
     @extend %base-font;
 }
 strong {
-    font-weight: map-get($weights, sb);
+    font-weight: map-get($weights, bd);
 }
 // ###italic;
 @mixin italic {
