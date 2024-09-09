@@ -12,7 +12,8 @@ $weights: (
     rg: 400,
     nr: 450,
     md: 500,
-    sb: 600
+    sb: 600,
+    bd: 700
 );
 
 // ##Font sizes properties
@@ -174,32 +175,32 @@ strong {
 @mixin ro-it-24 {
     @include font-style('ro', it, 24);
 }
-@mixin ro-sb-13 {
-    @include font-style('ro', sb, 13);
+@mixin ro-bd-13 {
+    @include font-style('ro', bd, 13);
 }
-@mixin ro-sb-14 {
-    @include font-style('ro', sb, 14);
+@mixin ro-bd-14 {
+    @include font-style('ro', bd, 14);
 }
-@mixin ro-sb-14-sh {
-    @include font-style('ro', sb, 14-sh);
+@mixin ro-bd-14-sh {
+    @include font-style('ro', bd, 14-sh);
 }
-@mixin ro-sb-16 {
-    @include font-style('ro', sb, 16);
+@mixin ro-bd-16 {
+    @include font-style('ro', bd, 16);
 }
-@mixin ro-sb-16-sh {
-    @include font-style('ro', sb, 16-sh);
+@mixin ro-bd-16-sh {
+    @include font-style('ro', bd, 16-sh);
 }
-@mixin ro-sb-18 {
-    @include font-style('ro', sb, 18);
+@mixin ro-bd-18 {
+    @include font-style('ro', bd, 18);
 }
-@mixin ro-sb-18-sh {
-    @include font-style('ro', sb, 18-sh);
+@mixin ro-bd-18-sh {
+    @include font-style('ro', bd, 18-sh);
 }
-@mixin ro-sb-20 {
-    @include font-style('ro', sb, 20);
+@mixin ro-bd-20 {
+    @include font-style('ro', bd, 20);
 }
-@mixin ro-sb-20-sh {
-    @include font-style('ro', sb, 20-sh);
+@mixin ro-bd-20-sh {
+    @include font-style('ro', bd, 20-sh);
 }
 @mixin tt-md-14 {
     @include font-style('tt', md, 14);
@@ -265,143 +266,6 @@ strong {
     @include font-style('tt', nr, 24)
 }
 
-// ###驗證
-
-.ro-rg-12 {
-    @include ro-rg-12();
-}
-
-.ro-rg-13 {
-    @include ro-rg-13();
-}
-.ro-rg-14 {
-    @include ro-rg-14();
-}
-.ro-rg-14-sh {
-    @include ro-rg-14-sh();
-}
-.ro-rg-16 {
-    @include ro-rg-16();
-}
-.ro-rg-16-sh {
-    @include ro-rg-16-sh();
-}
-.ro-rg-18 {
-    @include ro-rg-18();
-}
-.ro-rg-18-sh {
-    @include ro-rg-18-sh();
-}
-.ro-rg-20 {
-    @include ro-rg-20();
-}
-.ro-it-20 {
-    @include ro-it-20();
-}
-.ro-rg-20-sh {
-    @include ro-rg-20-sh();
-}
-.ro-rg-24 {
-    @include ro-rg-24();
-}
-.ro-it-24 {
-    @include ro-it-24();
-}
-.ro-sb-13 {
-    @include ro-sb-13();
-}
-.ro-sb-14 {
-    @include ro-sb-14();
-}
-.ro-sb-14-sh {
-    @include ro-sb-14-sh();
-}
-.ro-sb-16 {
-    @include ro-sb-16();
-}
-.ro-sb-16-sh {
-    @include ro-sb-16-sh();
-}
-.ro-sb-18 {
-    @include ro-sb-18();
-}
-.ro-sb-18-sh {
-    @include ro-sb-18-sh();
-}
-.ro-sb-16 {
-    @include ro-sb-16();
-}
-.ro-sb-20-sh {
-    @include ro-sb-20-sh();
-}
-
-.tt-nr-13 {
-    @include tt-nr-13();
-}
-.tt-nr-14 {
-    @include tt-nr-14();
-}
-.tt-nr-14-sh {
-    @include tt-nr-14-sh();
-}
-.tt-nr-16 {
-    @include tt-nr-16();
-}
-.tt-nr-16-sh {
-    @include tt-nr-16-sh();
-}
-.tt-nr-18 {
-    @include tt-nr-18();
-}
-.tt-nr-18-sh {
-    @include tt-nr-18-sh();
-}
-.tt-nr-20 {
-    @include tt-nr-20();
-}
-.tt-nr-20-sh {
-    @include tt-nr-20-sh();
-}
-.tt-nr-24 {
-    @include tt-nr-24();
-}
-
-
-.tt-md-14 {
-    @include tt-md-14();
-}
-.tt-md-16 {
-    @include tt-md-16();
-}
-.tt-md-18 {
-    @include tt-md-18();
-}
-.tt-md-20 {
-    @include tt-md-20();
-}
-.tt-md-24 {
-    @include tt-md-24();
-}
-.tt-md-30 {
-    @include tt-md-30();
-}
-.tt-md-36 {
-    @include tt-md-36();
-}
-.tt-md-44 {
-    @include tt-md-44();
-}
-.tt-md-52 {
-    @include tt-md-52();
-}
-.tt-md-64 {
-    @include tt-md-64();
-}
-.tt-md-72 {
-    @include tt-md-72();
-}
-
-
 //Semantic token deploy
 @mixin label-01() {
     @include ro-rg-12();
@@ -464,23 +328,23 @@ strong {
 }
 
 @mixin heading-00-sh() {
-    @include ro-sb-13();
+    @include ro-bd-13();
 }
 
 @mixin heading-01-sh() {
-    @include ro-sb-14-sh();
+    @include ro-bd-14-sh();
 }
 
 @mixin heading-02-sh() {
-    @include ro-sb-16-sh();
+    @include ro-bd-16-sh();
 }
 
 @mixin heading-03-sh() {
-    @include ro-sb-18-sh();
+    @include ro-bd-18-sh();
 }
 
 @mixin heading-04-sh() {
-    @include ro-sb-20-sh();
+    @include ro-bd-20-sh();
 }
 
 @mixin quote-04() {
@@ -603,10 +467,3 @@ strong {
     }
 }
 
-// ###驗證
-/*
-.display-display-03 {
-    @include display-display-03();
-}
-
-*/
