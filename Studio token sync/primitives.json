@@ -703,7 +703,7 @@
           },
           "line-height": {
             "$type": "number",
-            "$value": "16"
+            "$value": "18"
           },
           "letter-spacing": {
             "$type": "number",
@@ -850,7 +850,7 @@
           },
           "line-height": {
             "$type": "number",
-            "$value": "16"
+            "$value": "18"
           },
           "letter-spacing": {
             "$type": "number",
@@ -996,7 +996,7 @@
           },
           "line-height": {
             "$type": "number",
-            "$value": "16"
+            "$value": "18"
           },
           "letter-spacing": {
             "$type": "number",
@@ -1130,7 +1130,7 @@
           },
           "line-height": {
             "$type": "number",
-            "$value": "16"
+            "$value": "18"
           },
           "letter-spacing": {
             "$type": "number",
@@ -1304,7 +1304,7 @@
           },
           "line-height": {
             "$type": "number",
-            "$value": "16"
+            "$value": "18"
           },
           "letter-spacing": {
             "$type": "number",
