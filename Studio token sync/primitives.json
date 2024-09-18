@@ -302,50 +302,50 @@
           "$type": "typography",
           "$value": {
             "fontFamily": "{base.font}",
-            "fontWeight": "{ro.bd.weight}",
-            "fontSize": "{ro.bd.13.size}",
-            "lineHeight": "{ro.bd.13.line-height}",
-            "letterSpacing": "{ro.bd.13.letter-spacing}"
+            "fontWeight": "{ro.md.weight}",
+            "fontSize": "{ro.md.13.size}",
+            "lineHeight": "{ro.md.13.line-height}",
+            "letterSpacing": "{ro.md.13.letter-spacing}"
           }
         },
         "heading-01-sh": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{base.font}",
-            "fontWeight": "{ro.bd.weight}",
-            "fontSize": "{ro.bd.14-sh.size}",
-            "lineHeight": "{ro.bd.14-sh.line-height}",
-            "letterSpacing": "{ro.bd.14-sh.letter-spacing}"
+            "fontWeight": "{ro.md.weight}",
+            "fontSize": "{ro.md.14-sh.size}",
+            "lineHeight": "{ro.md.14-sh.line-height}",
+            "letterSpacing": "{ro.md.14-sh.letter-spacing}"
           }
         },
         "heading-02-sh": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{base.font}",
-            "fontWeight": "{ro.bd.weight}",
-            "fontSize": "{ro.bd.16-sh.size}",
-            "lineHeight": "{ro.bd.16-sh.line-height}",
-            "letterSpacing": "{ro.bd.16-sh.letter-spacing}"
+            "fontWeight": "{ro.md.weight}",
+            "fontSize": "{ro.md.16-sh.size}",
+            "lineHeight": "{ro.md.16-sh.line-height}",
+            "letterSpacing": "{ro.md.16-sh.letter-spacing}"
           }
         },
         "heading-03-sh": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{base.font}",
-            "fontWeight": "{ro.bd.weight}",
-            "fontSize": "{ro.bd.18-sh.size}",
-            "lineHeight": "{ro.bd.18-sh.line-height}",
-            "letterSpacing": "{ro.bd.18-sh.letter-spacing}"
+            "fontWeight": "{ro.md.weight}",
+            "fontSize": "{ro.md.18-sh.size}",
+            "lineHeight": "{ro.md.18-sh.line-height}",
+            "letterSpacing": "{ro.md.18-sh.letter-spacing}"
           }
         },
         "heading-04-sh": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{base.font}",
-            "fontWeight": "{ro.bd.weight}",
-            "fontSize": "{ro.bd.20-sh.size}",
-            "lineHeight": "{ro.bd.20-sh.line-height}",
-            "letterSpacing": "{ro.bd.20-sh.letter-spacing}"
+            "fontWeight": "{ro.md.weight}",
+            "fontSize": "{ro.md.20-sh.size}",
+            "lineHeight": "{ro.md.20-sh.line-height}",
+            "letterSpacing": "{ro.md.20-sh.letter-spacing}"
           }
         }
       },
@@ -987,6 +987,138 @@
           "$type": "number",
           "$value": "{font-weight.400}"
         }
+      },
+      "md": {
+        "13": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.13}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "16"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0.24"
+          }
+        },
+        "14": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.14}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "20"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0.16"
+          }
+        },
+        "16": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.16}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "24"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
+        },
+        "18": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.18}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "26"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
+        },
+        "20": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.20}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "28"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
+        },
+        "14-sh": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.14}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "18"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0.16"
+          }
+        },
+        "16-sh": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.16}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "22"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
+        },
+        "18-sh": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.18}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "24"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
+        },
+        "20-sh": {
+          "size": {
+            "$type": "number",
+            "$value": "{font-size.20}"
+          },
+          "line-height": {
+            "$type": "number",
+            "$value": "26"
+          },
+          "letter-spacing": {
+            "$type": "number",
+            "$value": "0"
+          }
+        },
+        "weight": {
+          "$type": "number",
+          "$value": "{font-weight.500}"
+        }
       }
     },
     "tt": {
@@ -1430,6 +1562,96 @@
             "letterSpacing": "{ro.rg.24.letter-spacing}"
           }
         },
+        "ro-md-13": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.md.weight}",
+            "fontSize": "{ro.md.13.size}",
+            "lineHeight": "{ro.md.13.line-height}",
+            "letterSpacing": "{ro.md.13.letter-spacing}"
+          }
+        },
+        "ro-md-14": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.md.weight}",
+            "lineHeight": "{ro.md.14.line-height}",
+            "fontSize": "{ro.md.14.size}",
+            "letterSpacing": "{ro.md.14.letter-spacing}"
+          }
+        },
+        "ro-md-14-sh": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.md.weight}",
+            "fontSize": "{ro.md.14-sh.size}",
+            "lineHeight": "{ro.md.14-sh.line-height}",
+            "letterSpacing": "{ro.md.14-sh.letter-spacing}"
+          }
+        },
+        "ro-md-16": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.md.weight}",
+            "lineHeight": "{ro.md.16.line-height}",
+            "fontSize": "{ro.md.16.size}",
+            "letterSpacing": "{ro.md.16.letter-spacing}"
+          }
+        },
+        "ro-md-16-sh": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.md.weight}",
+            "lineHeight": "{ro.md.16-sh.line-height}",
+            "fontSize": "{ro.md.16-sh.size}",
+            "letterSpacing": "{ro.md.16-sh.letter-spacing}"
+          }
+        },
+        "ro-md-18": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.md.weight}",
+            "lineHeight": "{ro.md.18.line-height}",
+            "fontSize": "{ro.md.18.size}",
+            "letterSpacing": "{ro.md.18.letter-spacing}"
+          }
+        },
+        "ro-md-18-sh": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.md.weight}",
+            "lineHeight": "{ro.md.18-sh.line-height}",
+            "fontSize": "{ro.md.18-sh.size}",
+            "letterSpacing": "{ro.md.18-sh.letter-spacing}"
+          }
+        },
+        "ro-md-20": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.md.weight}",
+            "lineHeight": "{ro.md.20.line-height}",
+            "fontSize": "{ro.md.20.size}",
+            "letterSpacing": "{ro.md.20.letter-spacing}"
+          }
+        },
+        "ro-md-20-sh": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.md.weight}",
+            "lineHeight": "{ro.md.20-sh.line-height}",
+            "fontSize": "{ro.md.20-sh.size}",
+            "letterSpacing": "{ro.md.20-sh.letter-spacing}"
+          }
+        },
         "ro-bd-13": {
           "$type": "typography",
           "$value": {
@@ -1460,6 +1682,16 @@
             "letterSpacing": "{ro.bd.14-sh.letter-spacing}"
           }
         },
+        "ro-bd-16": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.bd.weight}",
+            "lineHeight": "{ro.bd.16.line-height}",
+            "fontSize": "{ro.bd.16.size}",
+            "letterSpacing": "{ro.bd.16.letter-spacing}"
+          }
+        },
         "ro-bd-16-sh": {
           "$type": "typography",
           "$value": {
@@ -1468,6 +1700,46 @@
             "lineHeight": "{ro.bd.16-sh.line-height}",
             "fontSize": "{ro.bd.16-sh.size}",
             "letterSpacing": "{ro.bd.16-sh.letter-spacing}"
+          }
+        },
+        "ro-bd-18": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.bd.weight}",
+            "lineHeight": "{ro.bd.18.line-height}",
+            "fontSize": "{ro.bd.18.size}",
+            "letterSpacing": "{ro.bd.18.letter-spacing}"
+          }
+        },
+        "ro-bd-18-sh": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.bd.weight}",
+            "lineHeight": "{ro.bd.18-sh.line-height}",
+            "fontSize": "{ro.bd.18-sh.size}",
+            "letterSpacing": "{ro.bd.18-sh.letter-spacing}"
+          }
+        },
+        "ro-bd-20": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.bd.weight}",
+            "lineHeight": "{ro.bd.20.line-height}",
+            "fontSize": "{ro.bd.20.size}",
+            "letterSpacing": "{ro.bd.20.letter-spacing}"
+          }
+        },
+        "ro-bd-20-sh": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{base.font}",
+            "fontWeight": "{ro.bd.weight}",
+            "lineHeight": "{ro.bd.20-sh.line-height}",
+            "fontSize": "{ro.bd.20-sh.size}",
+            "letterSpacing": "{ro.bd.20-sh.letter-spacing}"
           }
         },
         "ro-it-20": {
