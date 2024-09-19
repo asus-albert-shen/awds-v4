@@ -1,17 +1,1 @@
-@charset "UTF-8";
-:lang(tw):root, :lang(zh-TW):root, :lang(zh-tw):root {
-  font-family: Roboto, Microsoft JhengHei, sans-serif;
-}
-:lang(ja-jp):root, :lang(jp):root {
-  font-family: Roboto, メイリオ, ヒラギノ 角ゴシックProN W3, 小塚ゴシック Pro H, KozGoPr6N-Heavy, KozGoPro-Heavy, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
-}
-:lang(cn):root, :lang(zh-CN):root, :lang(zh-cn):root {
-  font-family: Roboto, 微软雅黑, sans-serif;
-}
-:lang(ko):root, :lang(ko-KR):root, :lang(ko-kr):root {
-  font-family: Roboto, Nanum Gothic, Malgun Gothic, sans-serif;
-}
-
-strong {
-  font-weight: 700;
-}/*# sourceMappingURL=font-scale-test.css.map */
+:lang(tw):root,:lang(zh-TW):root,:lang(zh-tw):root{font-family:Roboto,sans-serif}:lang(ja-jp):root,:lang(jp):root{font-family:Roboto,メイリオ, ヒラギノ 角ゴシックProN W3, 小塚ゴシック Pro H, KozGoPr6N-Heavy, KozGoPro-Heavy, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ Ｐゴシック, MS PGothic,sans-serif}:lang(cn):root,:lang(zh-CN):root,:lang(zh-cn):root{font-family:Roboto,微软雅黑,sans-serif}:lang(ko):root,:lang(ko-KR):root,:lang(ko-kr):root{font-family:Roboto,Nanum Gothic, Malgun Gothic,sans-serif}strong{font-weight:700}
