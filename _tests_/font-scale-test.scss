@@ -40,10 +40,11 @@ $sizes: (
 // ##Localize
 // ###Local fonts map
 $local-fonts: (
-  "default": "Roboto",
-  "JP": "メイリオ, ヒラギノ 角ゴシックProN W3, 小塚ゴシック Pro H, KozGoPr6N-Heavy, KozGoPro-Heavy, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, ＭＳ Ｐゴシック, MS PGothic",
-  "CN": "微软雅黑",
-  "KR": "Nanum Gothic, Malgun Gothic"
+  "default": '"Roboto"',
+  "JP": '"Biz UDGothic"', //241206 note:已開單執行全站統一
+  //"CN": '"微软雅黑"',
+  //"KR": '"Nanum Gothic", "Malgun Gothic"', //241206 note:待確認
+  //"TW": '"Noto Sans TC"' //241206 note:TBD
 );
 
 // ###Font family deployment
