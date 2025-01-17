@@ -47,7 +47,10 @@ $local-fonts: (
   //"KR": '"Nanum Gothic", "Malgun Gothic"', //241206 note:待確認
   //"TW": '"Noto Sans TC"' //241206 note:TBD
 );
-
+$ttnormspro-md: "TTNormsProMedium";
+$ttnormspro-nr: "TTNormsProNormal";
+$default-fonts: #{map-get($local-fonts, "default")}, #{map-get($local-fonts, "alternative")};
+$jp-fonts: #{map-get($local-fonts, "JP")};
 // ###Locals base font
 %base-font {
     font-family: #{map-get($local-fonts, "default")}, #{map-get($local-fonts, "alternative")};
@@ -70,13 +73,25 @@ strong {
 }
 //
 // ###Locals superior font
+
 %superior-font {
-  font-family: "TTNormsProMedium",#{map-get($local-fonts, "default")}, #{map-get($local-fonts, "alternative")};
-  font-synthesis: none;
-  &:lang(ja-jp), &:lang(jp) {
-    font-family: "TTNormsProMedium",#{map-get($local-fonts, "default")}, #{map-get($local-fonts, "JP")}, #{map-get($local-fonts, "alternative")};
-    font-weight: map-get($weights , sb )
-  }
+    font-family: $ttnormspro-md, $default-fonts;
+    font-synthesis: none;
+
+    &:lang(ja-jp), &:lang(jp) {
+        font-family: $ttnormspro-md, $default-fonts, $jp-fonts;
+        font-weight: map-get($weights, sb);
+    }
+}
+
+%superior-font-normal {
+    font-family: $ttnormspro-nr, $default-fonts;
+    font-synthesis: none;
+
+    &:lang(ja-jp), &:lang(jp) {
+        font-family: $ttnormspro-nr, $default-fonts, $jp-fonts;
+        font-weight: map-get($weights, sb);
+    }
 }
 
 // ###Primitives token deploy
@@ -86,7 +101,11 @@ strong {
         //@extend %base-font; // ~?設定成root就好?~
     } @else {
         @if $font-key == 'tt' {
-            @extend %superior-font;
+            @if $weight-key == md {
+                @extend %superior-font;
+            } @else {
+                @extend %superior-font-normal;
+            }
         } @else {
             font-family: null;
         }
