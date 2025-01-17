@@ -10,7 +10,7 @@ $breakpoint: (
 // ##Font weights
 $weights: (
     rg: 400,
-    nr: 450,
+    nr: 400, //讓非TTNormsProNormal(450)的字型對應字重
     md: 500,
     sb: 600,
     bd: 700
@@ -41,59 +41,20 @@ $sizes: (
 // ###Local fonts map
 $local-fonts: (
   "default": '"Roboto"',
+  "alternative": 'sans-serif',
   "JP": '"Biz UDGothic"', //241206 note:已開單執行全站統一
   //"CN": '"微软雅黑"',
   //"KR": '"Nanum Gothic", "Malgun Gothic"', //241206 note:待確認
   //"TW": '"Noto Sans TC"' //241206 note:TBD
 );
 
-// ###Font family deployment
-// ###Default US
-@mixin set-font($country, $latin-font: map-get($local-fonts, "default")) {
-  @if map-has-key($local-fonts, $country) and map-get($local-fonts, $country) {
-    font-family: #{$latin-font}, #{map-get($local-fonts, $country)}, sans-serif;
-  } @else {
-    font-family: #{$latin-font}, sans-serif;
-  }
-}
-
 // ###Locals base font
 %base-font {
-  &:lang(tw), &:lang(zh-TW), &:lang(zh-tw) {
-    @include set-font("TW");
-  }
+    font-family: #{map-get($local-fonts, "default")}, #{map-get($local-fonts, "alternative")};
   &:lang(ja-jp), &:lang(jp) {
-    @include set-font("JP");
-  }
-  &:lang(cn), &:lang(zh-CN), &:lang(zh-cn) {
-    @include set-font("CN");
-  }
-  &:lang(ko), &:lang(ko-KR), &:lang(ko-kr) {
-    @include set-font("KR");
+    font-family: #{map-get($local-fonts, "default")}, #{map-get($local-fonts, "JP")}, #{map-get($local-fonts, "alternative")};
   }
 }
-
-// ###Locals superior font
-%superior-font {
-  font-family: "TTNormsProMedium, sans-serif";
-  &:lang(tw), &:lang(zh-TW), &:lang(zh-tw) {
-    font-family: "TTNormsProMedium", #{map-get($local-fonts, "TW")}, sans-serif;
-    font-weight: map-get($weights , sb )
-  }
-  &:lang(ja-jp), &:lang(jp) {
-    font-family: "TTNormsProMedium", #{map-get($local-fonts, "JP")}, sans-serif;
-    font-weight: map-get($weights , sb )
-  }
-  &:lang(cn), &:lang(zh-CN), &:lang(zh-cn) {
-    font-family: "TTNormsProMedium", #{map-get($local-fonts, "CN")}, sans-serif;
-    font-weight: map-get($weights , sb )
-  }
-  &:lang(ko), &:lang(ko-KR), &:lang(ko-kr) {
-    font-family: "TTNormsProMedium", #{map-get($local-fonts, "KR")}, sans-serif;
-    font-weight: map-get($weights , sb )
-  }
-}
-
 // ##HTML font style
 // ###全域
 :root {
@@ -108,7 +69,15 @@ strong {
     font-style: italic;
 }
 //
-
+// ###Locals superior font
+%superior-font {
+  font-family: "TTNormsProMedium",#{map-get($local-fonts, "default")}, #{map-get($local-fonts, "alternative")};
+  font-synthesis: none;
+  &:lang(ja-jp), &:lang(jp) {
+    font-family: "TTNormsProMedium",#{map-get($local-fonts, "default")}, #{map-get($local-fonts, "JP")}, #{map-get($local-fonts, "alternative")};
+    font-weight: map-get($weights , sb )
+  }
+}
 
 // ###Primitives token deploy
 @mixin font-style($font-key, $weight-key, $size-key) {
@@ -122,7 +91,6 @@ strong {
             font-family: null;
         }
     }
-
     @if $weight-key == it {
         @include italic();
     } @else {
@@ -202,6 +170,21 @@ strong {
 @mixin ro-bd-20-sh {
     @include font-style('ro', bd, 20-sh);
 }
+//--20250117新增--開始
+//from partner site
+@mixin ro-sb-24 {
+    @include font-style('ro', sb, 24);
+}
+@mixin ro-sb-30 {
+    @include font-style('ro', sb, 30);
+}
+@mixin ro-sb-36 {
+    @include font-style('ro', sb, 36);
+}
+@mixin ro-bd-46 {
+    @include font-style('ro', bd, 46);
+}
+//--20250117新增--結束
 @mixin tt-md-14 {
     @include font-style('tt', md, 14);
 }
@@ -279,6 +262,9 @@ strong {
     @include ro-rg-14();
 }
 
+@mixin body-00-sh() {
+    @include ro-rg-13();
+}
 @mixin body-01() {
     @include ro-rg-14();
 }
@@ -467,3 +453,6 @@ strong {
     }
 }
 
+.test{
+    @include tt-nr-13();
+}
