@@ -128,80 +128,80 @@
           "$type": "typography",
           "$value": {
             "fontFamily": "{base.font}",
-            "fontWeight": "{ro.bd.weight}",
-            "fontSize": "{ro.bd.14.size}",
-            "lineHeight": "{ro.bd.14.line-height}",
-            "letterSpacing": "{ro.bd.14.letter-spacing}"
+            "fontSize": "{ro.md.14.size}",
+            "lineHeight": "{ro.md.14.line-height}",
+            "letterSpacing": "{ro.md.14.letter-spacing}",
+            "fontWeight": "{ro.md.weight}"
           }
         },
         "body-02 <strong>": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{base.font}",
-            "fontWeight": "{ro.bd.weight}",
-            "fontSize": "{ro.bd.16.size}",
-            "lineHeight": "{ro.bd.16.line-height}",
-            "letterSpacing": "{ro.bd.16.letter-spacing}"
+            "fontWeight": "{ro.md.weight}",
+            "fontSize": "{ro.md.16.size}",
+            "lineHeight": "{ro.md.16.line-height}",
+            "letterSpacing": "{ro.md.16.letter-spacing}"
           }
         },
         "body-03 <strong>": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{base.font}",
-            "fontWeight": "{ro.bd.weight}",
-            "fontSize": "{ro.bd.18.size}",
-            "lineHeight": "{ro.bd.18.line-height}",
-            "letterSpacing": "{ro.bd.18.letter-spacing}"
+            "fontWeight": "{ro.md.weight}",
+            "fontSize": "{ro.md.18.size}",
+            "lineHeight": "{ro.md.18.line-height}",
+            "letterSpacing": "{ro.md.18.letter-spacing}"
           }
         },
         "body-04 <strong>": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{base.font}",
-            "fontWeight": "{ro.bd.weight}",
-            "fontSize": "{ro.bd.20.size}",
-            "lineHeight": "{ro.bd.20.line-height}",
-            "letterSpacing": "{ro.bd.20.letter-spacing}"
+            "fontWeight": "{ro.md.weight}",
+            "fontSize": "{ro.md.20.size}",
+            "lineHeight": "{ro.md.20.line-height}",
+            "letterSpacing": "{ro.md.20.letter-spacing}"
           }
         },
         "body-01-sh <strong>": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{base.font}",
-            "fontWeight": "{ro.bd.weight}",
-            "fontSize": "{ro.bd.14-sh.size}",
-            "lineHeight": "{ro.bd.14-sh.line-height}",
-            "letterSpacing": "{ro.bd.14-sh.letter-spacing}"
+            "fontWeight": "{ro.md.weight}",
+            "fontSize": "{ro.md.14-sh.size}",
+            "lineHeight": "{ro.md.14-sh.line-height}",
+            "letterSpacing": "{ro.md.14-sh.letter-spacing}"
           }
         },
         "body-02-sh <strong>": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{base.font}",
-            "fontWeight": "{ro.bd.weight}",
-            "fontSize": "{ro.bd.16-sh.size}",
-            "lineHeight": "{ro.bd.16-sh.line-height}",
-            "letterSpacing": "{ro.bd.16-sh.letter-spacing}"
+            "fontWeight": "{ro.md.weight}",
+            "fontSize": "{ro.md.16-sh.size}",
+            "lineHeight": "{ro.md.16-sh.line-height}",
+            "letterSpacing": "{ro.md.16-sh.letter-spacing}"
           }
         },
         "body-03-sh <strong>": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{base.font}",
-            "fontWeight": "{ro.bd.weight}",
-            "fontSize": "{ro.bd.18-sh.size}",
-            "lineHeight": "{ro.bd.18-sh.line-height}",
-            "letterSpacing": "{ro.bd.18-sh.letter-spacing}"
+            "fontWeight": "{ro.md.weight}",
+            "fontSize": "{ro.md.18-sh.size}",
+            "lineHeight": "{ro.md.18-sh.line-height}",
+            "letterSpacing": "{ro.md.18-sh.letter-spacing}"
           }
         },
         "body-04-sh <strong>": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{base.font}",
-            "fontWeight": "{ro.bd.weight}",
-            "fontSize": "{ro.bd.20-sh.size}",
-            "lineHeight": "{ro.bd.20-sh.line-height}",
-            "letterSpacing": "{ro.bd.20-sh.letter-spacing}"
+            "fontWeight": "{ro.md.weight}",
+            "fontSize": "{ro.md.20-sh.size}",
+            "lineHeight": "{ro.md.20-sh.line-height}",
+            "letterSpacing": "{ro.md.20-sh.letter-spacing}"
           }
         }
       },
