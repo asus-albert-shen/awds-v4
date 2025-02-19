@@ -10,7 +10,8 @@
             "fontSize": "{ro.rg.12.size}",
             "lineHeight": "{ro.rg.12.line-height}",
             "letterSpacing": "{ro.rg.12.letter-spacing}"
-          }
+          },
+          "$description": "Be used for field labels in components, error messages, and captions. It should not be used for body copy.\n設計時有用到須明確告知主管定奪。"
         },
         "label-02": {
           "$type": "typography",
@@ -20,7 +21,8 @@
             "fontSize": "{ro.rg.13.size}",
             "lineHeight": "{ro.rg.13.line-height}",
             "letterSpacing": "{ro.rg.13.letter-spacing}"
-          }
+          },
+          "$description": "Be used for field labels in components, error messages, and captions. It should not be used for body copy."
         },
         "label-03": {
           "$type": "typography",
@@ -30,7 +32,8 @@
             "fontSize": "{ro.rg.14.size}",
             "lineHeight": "{ro.rg.14.line-height}",
             "letterSpacing": "{ro.rg.14.letter-spacing}"
-          }
+          },
+          "$description": "Be used for field labels in components, error messages, and captions. It should not be used for body copy."
         }
       },
       "Body": {
@@ -92,7 +95,8 @@
             "fontSize": "{ro.rg.14-sh.size}",
             "lineHeight": "{ro.rg.14-sh.line-height}",
             "letterSpacing": "{ro.rg.14-sh.letter-spacing}"
-          }
+          },
+          "$description": "It is used for short paragraphs of no more than four lines and is commonly used in components such as button labels, checkbox labels, tab bar labels, etc."
         },
         "body-02-sh": {
           "$type": "typography",
@@ -102,7 +106,8 @@
             "fontSize": "{ro.rg.16-sh.size}",
             "lineHeight": "{ro.rg.16-sh.line-height}",
             "letterSpacing": "{ro.rg.16-sh.letter-spacing}"
-          }
+          },
+          "$description": "It is used for short paragraphs of no more than four lines and is commonly used in components such as button labels, checkbox labels, tab bar labels, etc."
         },
         "body-03-sh": {
           "$type": "typography",
@@ -112,7 +117,8 @@
             "fontSize": "{ro.rg.18-sh.size}",
             "lineHeight": "{ro.rg.18-sh.line-height}",
             "letterSpacing": "{ro.rg.18-sh.letter-spacing}"
-          }
+          },
+          "$description": "It is used for short paragraphs of no more than four lines and is commonly used in components such as button labels, checkbox labels, tab bar labels, etc."
         },
         "body-04-sh": {
           "$type": "typography",
@@ -122,7 +128,8 @@
             "fontSize": "{ro.rg.20-sh.size}",
             "lineHeight": "{ro.rg.20-sh.line-height}",
             "letterSpacing": "{ro.rg.20-sh.letter-spacing}"
-          }
+          },
+          "$description": "It is used for short paragraphs of no more than four lines and is commonly used in components such as button labels, checkbox labels, tab bar labels, etc."
         },
         "body-01 <strong>": {
           "$type": "typography",
