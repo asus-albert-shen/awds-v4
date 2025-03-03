@@ -1,3 +1,9 @@
+// #Fontype-v4.1.1
+// v4.1.1 Update Note 20250303
+// - Fix $sizes 13 value to 0.8125rem, 1.385, 0.015rem
+// - Fix token: ro-md-13, ro-md-14, ro-md-14-sh, ro-md-16, ro-md-16-sh, ro-md-18, ro-md-18-sh, ro-md-20, ro-md-20-sh, ro-md-24, ro-md-30, ro-md-36, paragraph-02
+// - Add token: tt-md-13
+
 // #Fontype-v4.1.0
 // v4.1.0 Update Note 20250218
 // - Change $breakpoints unit to px
@@ -28,7 +34,7 @@ $weights: (
 // ##Font sizes properties map
 $sizes: (
     12: (0.75rem,1.333,0.02rem),
-    13: (0.8125rem,1.231,0.015rem), //20250210修改小數點後四位
+    13: (0.8125rem,1.385,0.015rem),
     14: (0.875rem,1.429,0.01rem),
     14-sh: (0.875rem,1.286,0.01rem),
     16: (1rem,1.5,0),
@@ -186,31 +192,31 @@ strong {
 }
 //--20250218新增--開始
 @mixin ro-md-13 {
-    @include font-style("ro", bd, 13);
+    @include font-style("ro", md, 13);
 }
 @mixin ro-md-14 {
-    @include font-style("ro", bd, 14);
+    @include font-style("ro", md, 14);
 }
 @mixin ro-md-14-sh {
-    @include font-style("ro", bd, 14-sh);
+    @include font-style("ro", md, 14-sh);
 }
 @mixin ro-md-16 {
-    @include font-style("ro", bd, 16);
+    @include font-style("ro", md, 16);
 }
 @mixin ro-md-16-sh {
-    @include font-style("ro", bd, 16-sh);
+    @include font-style("ro", md, 16-sh);
 }
 @mixin ro-md-18 {
-    @include font-style("ro", bd, 18);
+    @include font-style("ro", md, 18);
 }
 @mixin ro-md-18-sh {
-    @include font-style("ro", bd, 18-sh);
+    @include font-style("ro", md, 18-sh);
 }
 @mixin ro-md-20 {
-    @include font-style("ro", bd, 20);
+    @include font-style("ro", md, 20);
 }
 @mixin ro-md-20-sh {
-    @include font-style("ro", bd, 20-sh);
+    @include font-style("ro", md, 20-sh);
 }
 //--20250218新增--結束
 //--20250117新增--開始
@@ -251,6 +257,9 @@ strong {
 }
 @mixin ro-bd-20-sh {
     @include font-style("ro", bd, 20-sh);
+}
+@mixin tt-md-13 { //20250303 Add
+    @include font-style("tt", md, 13);
 }
 @mixin tt-md-14 {
     @include font-style("tt", md, 14);
