@@ -1,1 +1,21 @@
-:root{font-family:"Roboto",sans-serif}:lang(ja-jp):root,:lang(jp):root{font-family:"Roboto","Biz UDGothic",sans-serif}strong{font-weight:700}.test{font-family:"TTNormsProNormal","Roboto",sans-serif;font-synthesis:none}.test:lang(ja-jp),.test:lang(jp){font-family:"TTNormsProNormal","Roboto",sans-serif,"Biz UDGothic";font-weight:600}.test{font-weight:400;font-size:.812rem;line-height:1.231;letter-spacing:.015rem}
+:root {
+  font-family: "Roboto", sans-serif;
+}
+:lang(ja-jp):root, :lang(jp):root {
+  font-family: "Roboto", "Biz UDGothic", sans-serif;
+}
+:lang(zh-tw):root, :lang(tw):root {
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
+}
+:lang(ko-kr):root, :lang(kr):root {
+  font-family: "Roboto", "Spoqa Han Sans Neo", sans-serif;
+}
+
+:root {
+  font-size: 16px;
+  font-synthesis: none;
+}
+
+strong {
+  font-weight: 500;
+}/*# sourceMappingURL=font-scale-test.css.map */
