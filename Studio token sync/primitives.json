@@ -37,7 +37,7 @@
         }
       },
       "Body": {
-        "body-00": {
+        "body-00-sh": {
           "$type": "typography",
           "$value": {
             "fontFamily": "{base.font}",
