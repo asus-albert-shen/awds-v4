@@ -1,3 +1,7 @@
+// #Fontype-v4.1.2
+// v4.1.2 Update Note 20250305
+// - Add @extend %base-font to token deploy function 
+
 // #Fontype-v4.1.1
 // v4.1.1 Update Note 20250303
 // - Fix $sizes 13 value to 0.8125rem, 1.385, 0.015rem
@@ -109,7 +113,7 @@ $fonts: (
 // ###Primitives token deploy
 @mixin font-style($font-key, $weight-key, $size-key) {
     @if $font-key == "ro" {
-        //@extend %base-font; // ~?設定成root就好?~
+        @extend %base-font;
     } @else {
         @if $font-key == "tt" {
             @if $weight-key == md {
