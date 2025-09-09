@@ -724,7 +724,7 @@
           },
           "letter-spacing": {
             "$type": "number",
-            "$value": "0.24"
+            "$value": 0
           }
         },
         "14": {
@@ -738,7 +738,7 @@
           },
           "letter-spacing": {
             "$type": "number",
-            "$value": "0.16"
+            "$value": 0
           }
         },
         "16": {
@@ -794,7 +794,7 @@
           },
           "letter-spacing": {
             "$type": "number",
-            "$value": "0.16"
+            "$value": 0
           }
         },
         "16-sh": {
@@ -857,7 +857,7 @@
           },
           "letter-spacing": {
             "$type": "number",
-            "$value": "0.32"
+            "$value": 0
           }
         },
         "13": {
@@ -871,7 +871,7 @@
           },
           "letter-spacing": {
             "$type": "number",
-            "$value": "0.24"
+            "$value": 0
           }
         },
         "14": {
@@ -885,7 +885,7 @@
           },
           "letter-spacing": {
             "$type": "number",
-            "$value": "0.16"
+            "$value": 0
           }
         },
         "16": {
@@ -955,7 +955,7 @@
           },
           "letter-spacing": {
             "$type": "number",
-            "$value": "0.16"
+            "$value": 0
           }
         },
         "16-sh": {
@@ -1017,7 +1017,7 @@
           },
           "letter-spacing": {
             "$type": "number",
-            "$value": "0.24"
+            "$value": 0
           }
         },
         "14": {
@@ -1031,7 +1031,7 @@
           },
           "letter-spacing": {
             "$type": "number",
-            "$value": "0.16"
+            "$value": 0
           }
         },
         "16": {
@@ -1129,7 +1129,7 @@
           },
           "letter-spacing": {
             "$type": "number",
-            "$value": "0.16"
+            "$value": 0
           }
         },
         "16-sh": {
@@ -1193,7 +1193,7 @@
           },
           "letter-spacing": {
             "$type": "number",
-            "$value": "0.24"
+            "$value": 0
           }
         },
         "14": {
@@ -1207,7 +1207,7 @@
           },
           "letter-spacing": {
             "$type": "number",
-            "$value": "0.16"
+            "$value": 0
           }
         },
         "16": {
@@ -1367,7 +1367,7 @@
           },
           "letter-spacing": {
             "$type": "number",
-            "$value": "0.24"
+            "$value": 0
           }
         },
         "14": {
@@ -1381,7 +1381,7 @@
           },
           "letter-spacing": {
             "$type": "number",
-            "$value": "0.16"
+            "$value": 0
           }
         },
         "16": {
@@ -1451,7 +1451,7 @@
           },
           "letter-spacing": {
             "$type": "number",
-            "$value": "0.16"
+            "$value": 0
           }
         },
         "16-sh": {
