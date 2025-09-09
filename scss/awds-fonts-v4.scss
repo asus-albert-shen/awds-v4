@@ -1,3 +1,10 @@
+// #Fontype-v4.2.0
+// v4.2 Update Note 20240606
+// - Change $sizes 12 value to 0.75rem, 1.333, 0
+// - Change $sizes 13 value to 0.8125rem, 1.385, 0
+// - Change $sizes 14 value to 0.875rem, 1.429, 0
+// - Change $sizes 14-sh value to 0.875rem, 1.286, 0
+
 // #Fontype-v4.1.2
 // v4.1.2 Update Note 20250305
 // - Add @extend %base-font to token deploy function 
@@ -37,10 +44,10 @@ $weights: (
 
 // ##Font sizes properties map
 $sizes: (
-    12: (0.75rem,1.333,0.02rem),
-    13: (0.8125rem,1.385,0.015rem),
-    14: (0.875rem,1.429,0.01rem),
-    14-sh: (0.875rem,1.286,0.01rem),
+    12: (0.75rem,1.333,0),
+    13: (0.8125rem,1.385,0),
+    14: (0.875rem,1.429,0),
+    14-sh: (0.875rem,1.286,0),
     16: (1rem,1.5,0),
     16-sh: (1rem,1.375,0),
     18: (1.125rem,1.444,0),
