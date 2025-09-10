@@ -4,702 +4,302 @@
       "Label": {
         "label-01": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.12.size}",
-            "lineHeight": "{ro.rg.12.line-height}",
-            "letterSpacing": "{ro.rg.12.letter-spacing}"
-          },
+          "$value": "{Primitives.Roboto.ro-rg-12}",
           "$description": "Be used for field labels in components, error messages, and captions. It should not be used for body copy.\n設計時有用到須明確告知主管定奪。"
         },
         "label-02": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.13.size}",
-            "lineHeight": "{ro.rg.13.line-height}",
-            "letterSpacing": "{ro.rg.13.letter-spacing}"
-          },
+          "$value": "{Primitives.Roboto.ro-rg-13}",
           "$description": "Be used for field labels in components, error messages, and captions. It should not be used for body copy."
         },
         "label-03": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.14.size}",
-            "lineHeight": "{ro.rg.14.line-height}",
-            "letterSpacing": "{ro.rg.14.letter-spacing}"
-          },
+          "$value": "{Primitives.Roboto.ro-rg-14}",
           "$description": "Be used for field labels in components, error messages, and captions. It should not be used for body copy."
         }
       },
       "Body": {
         "body-00-sh": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{font-size.13}",
-            "lineHeight": "{ro.rg.13.line-height}",
-            "letterSpacing": "{ro.rg.13.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-rg-13}"
         },
         "body-01": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.14.size}",
-            "lineHeight": "{ro.rg.14.line-height}",
-            "letterSpacing": "{ro.rg.14.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-rg-14}"
         },
         "body-02": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.16.size}",
-            "lineHeight": "{ro.rg.16.line-height}",
-            "letterSpacing": "{ro.rg.16.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-rg-16}"
         },
         "body-03": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.18.size}",
-            "lineHeight": "{ro.rg.18.line-height}",
-            "letterSpacing": "{ro.rg.18.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-rg-18}"
         },
         "body-04": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.20.size}",
-            "lineHeight": "{ro.rg.20.line-height}",
-            "letterSpacing": "{ro.rg.20.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-rg-20}"
         },
         "body-01-sh": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.14-sh.size}",
-            "lineHeight": "{ro.rg.14-sh.line-height}",
-            "letterSpacing": "{ro.rg.14-sh.letter-spacing}"
-          },
+          "$value": "{Primitives.Roboto.ro-rg-14-sh}",
           "$description": "It is used for short paragraphs of no more than four lines and is commonly used in components such as button labels, checkbox labels, tab bar labels, etc."
         },
         "body-02-sh": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.16-sh.size}",
-            "lineHeight": "{ro.rg.16-sh.line-height}",
-            "letterSpacing": "{ro.rg.16-sh.letter-spacing}"
-          },
+          "$value": "{Primitives.Roboto.ro-rg-16-sh}",
           "$description": "It is used for short paragraphs of no more than four lines and is commonly used in components such as button labels, checkbox labels, tab bar labels, etc."
         },
         "body-03-sh": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.18-sh.size}",
-            "lineHeight": "{ro.rg.18-sh.line-height}",
-            "letterSpacing": "{ro.rg.18-sh.letter-spacing}"
-          },
+          "$value": "{Primitives.Roboto.ro-rg-18-sh}",
           "$description": "It is used for short paragraphs of no more than four lines and is commonly used in components such as button labels, checkbox labels, tab bar labels, etc."
         },
         "body-04-sh": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.20-sh.size}",
-            "lineHeight": "{ro.rg.20-sh.line-height}",
-            "letterSpacing": "{ro.rg.20-sh.letter-spacing}"
-          },
+          "$value": "{Primitives.Roboto.ro-rg-20-sh}",
           "$description": "It is used for short paragraphs of no more than four lines and is commonly used in components such as button labels, checkbox labels, tab bar labels, etc."
         },
         "body-01 <strong>": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontSize": "{ro.md.14.size}",
-            "lineHeight": "{ro.md.14.line-height}",
-            "letterSpacing": "{ro.md.14.letter-spacing}",
-            "fontWeight": "{ro.md.weight}"
-          }
+          "$value": "{Primitives.Roboto.ro-md-14}"
         },
         "body-02 <strong>": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.md.weight}",
-            "fontSize": "{ro.md.16.size}",
-            "lineHeight": "{ro.md.16.line-height}",
-            "letterSpacing": "{ro.md.16.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-md-16}"
         },
         "body-03 <strong>": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.md.weight}",
-            "fontSize": "{ro.md.18.size}",
-            "lineHeight": "{ro.md.18.line-height}",
-            "letterSpacing": "{ro.md.18.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-md-18}"
         },
         "body-04 <strong>": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.md.weight}",
-            "fontSize": "{ro.md.20.size}",
-            "lineHeight": "{ro.md.20.line-height}",
-            "letterSpacing": "{ro.md.20.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-md-20}"
         },
         "body-01-sh <strong>": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.md.weight}",
-            "fontSize": "{ro.md.14-sh.size}",
-            "lineHeight": "{ro.md.14-sh.line-height}",
-            "letterSpacing": "{ro.md.14-sh.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-md-14-sh}"
         },
         "body-02-sh <strong>": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.md.weight}",
-            "fontSize": "{ro.md.16-sh.size}",
-            "lineHeight": "{ro.md.16-sh.line-height}",
-            "letterSpacing": "{ro.md.16-sh.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-md-16-sh}"
         },
         "body-03-sh <strong>": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.md.weight}",
-            "fontSize": "{ro.md.18-sh.size}",
-            "lineHeight": "{ro.md.18-sh.line-height}",
-            "letterSpacing": "{ro.md.18-sh.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-md-18-sh}"
         },
         "body-04-sh <strong>": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.md.weight}",
-            "fontSize": "{ro.md.20-sh.size}",
-            "lineHeight": "{ro.md.20-sh.line-height}",
-            "letterSpacing": "{ro.md.20-sh.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-md-20-sh}"
         }
       },
       "Paragraph": {
         "paragraph-01 @lg": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.20.size}",
-            "lineHeight": "{ro.rg.20.line-height}",
-            "letterSpacing": "{ro.rg.20.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-rg-20}"
         },
         "paragraph-01 @md": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.20.size}",
-            "lineHeight": "{ro.rg.20.line-height}",
-            "letterSpacing": "{ro.rg.20.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-rg-20}"
         },
         "paragraph-01 @sm": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.18.size}",
-            "lineHeight": "{ro.rg.18.line-height}",
-            "letterSpacing": "{ro.rg.18.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-rg-18}"
         },
         "paragraph-02 @lg": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.24.size}",
-            "lineHeight": "{ro.rg.24.line-height}",
-            "letterSpacing": "{ro.rg.24.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-rg-24}"
         },
         "paragraph-02 @md": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.24.size}",
-            "lineHeight": "{ro.rg.24.line-height}",
-            "letterSpacing": "{ro.rg.24.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-rg-24}"
         },
         "paragraph-02 @sm": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.rg.weight}",
-            "fontSize": "{ro.rg.20.size}",
-            "lineHeight": "{ro.rg.20.line-height}",
-            "letterSpacing": "{ro.rg.20.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-rg-20}"
         }
       },
       "Heading": {
         "heading-01": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.14.size}",
-            "lineHeight": "{tt.md.14.line-height}",
-            "letterSpacing": "{tt.md.14.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-14}"
         },
         "heading-02": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.16.size}",
-            "lineHeight": "{tt.md.16.line-height}",
-            "letterSpacing": "{tt.md.16.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-16}"
         },
         "heading-03": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.18.size}",
-            "lineHeight": "{tt.md.18.line-height}",
-            "letterSpacing": "{tt.md.18.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-18}"
         },
         "heading-04": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.20.size}",
-            "lineHeight": "{tt.md.20.line-height}",
-            "letterSpacing": "{tt.md.20.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-20}"
+        },
+        "heading-05": {
+          "$type": "typography",
+          "$value": "{Primitives.TTNormsPro.tt-md-24}"
+        },
+        "heading-06": {
+          "$type": "typography",
+          "$value": "{Primitives.TTNormsPro.tt-md-30}"
         },
         "heading-00-sh": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.md.weight}",
-            "fontSize": "{ro.md.13.size}",
-            "lineHeight": "{ro.md.13.line-height}",
-            "letterSpacing": "{ro.md.13.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-md-13}"
         },
         "heading-01-sh": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.md.weight}",
-            "fontSize": "{ro.md.14-sh.size}",
-            "lineHeight": "{ro.md.14-sh.line-height}",
-            "letterSpacing": "{ro.md.14-sh.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-md-14}"
         },
         "heading-02-sh": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.md.weight}",
-            "fontSize": "{ro.md.16-sh.size}",
-            "lineHeight": "{ro.md.16-sh.line-height}",
-            "letterSpacing": "{ro.md.16-sh.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-md-16}"
         },
         "heading-03-sh": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.md.weight}",
-            "fontSize": "{ro.md.18-sh.size}",
-            "lineHeight": "{ro.md.18-sh.line-height}",
-            "letterSpacing": "{ro.md.18-sh.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-md-18}"
         },
         "heading-04-sh": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontWeight": "{ro.md.weight}",
-            "fontSize": "{ro.md.20-sh.size}",
-            "lineHeight": "{ro.md.20-sh.line-height}",
-            "letterSpacing": "{ro.md.20-sh.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-md-20}"
         }
       },
       "Fluid Heading": {
         "fluid-heading-02 @lg": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.16.size}",
-            "lineHeight": "{tt.md.16.line-height}",
-            "letterSpacing": "{tt.md.16.letter-spacing}"
-          }
+          "$value": "{Semantics.Heading.heading-02}"
         },
         "fluid-heading-02 @md": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.16.size}",
-            "lineHeight": "{tt.md.16.line-height}",
-            "letterSpacing": "{tt.md.16.letter-spacing}"
-          }
+          "$value": "{Semantics.Heading.heading-02}"
         },
         "fluid-heading-02 @sm": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.14.size}",
-            "lineHeight": "{tt.md.14.line-height}",
-            "letterSpacing": "{tt.md.14.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-14}"
         },
         "fluid-heading-03 @lg": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.18.size}",
-            "lineHeight": "{tt.md.18.line-height}",
-            "letterSpacing": "{tt.md.18.letter-spacing}"
-          }
+          "$value": "{Semantics.Heading.heading-03}"
         },
         "fluid-heading-03 @md": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.18.size}",
-            "lineHeight": "{tt.md.18.line-height}",
-            "letterSpacing": "{tt.md.18.letter-spacing}"
-          }
+          "$value": "{Semantics.Heading.heading-03}"
         },
         "fluid-heading-03 @sm": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.16.size}",
-            "lineHeight": "{tt.md.16.line-height}",
-            "letterSpacing": "{tt.md.16.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-16}"
         },
         "fluid-heading-04 @lg": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.20.size}",
-            "lineHeight": "{tt.md.20.line-height}",
-            "letterSpacing": "{tt.md.20.letter-spacing}"
-          }
+          "$value": "{Semantics.Heading.heading-04}"
         },
         "fluid-heading-04 @md": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.18.size}",
-            "lineHeight": "{tt.md.18.line-height}",
-            "letterSpacing": "{tt.md.18.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-18}"
         },
         "fluid-heading-04 @sm": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.18.size}",
-            "lineHeight": "{tt.md.18.line-height}",
-            "letterSpacing": "{tt.md.18.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-18}"
         },
         "fluid-heading-05 @lg": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.24.size}",
-            "lineHeight": "{tt.md.24.line-height}",
-            "letterSpacing": "{tt.md.24.letter-spacing}"
-          }
+          "$value": "{Semantics.Heading.heading-05}"
         },
         "fluid-heading-05 @md": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.20.size}",
-            "lineHeight": "{tt.md.20.line-height}",
-            "letterSpacing": "{tt.md.20.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-20}"
         },
         "fluid-heading-05 @sm": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.20.size}",
-            "lineHeight": "{tt.md.20.line-height}",
-            "letterSpacing": "{tt.md.20.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-20}"
         },
         "fluid-heading-06 @lg": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.30.size}",
-            "lineHeight": "{tt.md.30.line-height}",
-            "letterSpacing": "{tt.md.30.letter-spacing}"
-          }
+          "$value": "{Semantics.Heading.heading-06}"
         },
         "fluid-heading-06 @md": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.24.size}",
-            "lineHeight": "{tt.md.24.line-height}",
-            "letterSpacing": "{tt.md.24.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-24}"
         },
         "fluid-heading-06 @sm": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.24.size}",
-            "lineHeight": "{tt.md.24.line-height}",
-            "letterSpacing": "{tt.md.24.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-24}"
         },
         "fluid-heading-07 @lg": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.36.size}",
-            "lineHeight": "{tt.md.36.line-height}",
-            "letterSpacing": "{tt.md.36.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-36}"
         },
         "fluid-heading-07 @md": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.30.size}",
-            "lineHeight": "{tt.md.30.line-height}",
-            "letterSpacing": "{tt.md.30.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-30}"
         },
         "fluid-heading-07 @sm": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.30.size}",
-            "lineHeight": "{tt.md.30.line-height}",
-            "letterSpacing": "{tt.md.30.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-30}"
         },
         "fluid-heading-08 @lg": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.44.size}",
-            "lineHeight": "{tt.md.44.line-height}",
-            "letterSpacing": "{tt.md.44.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-44}"
         },
         "fluid-heading-08 @md": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.36.size}",
-            "lineHeight": "{tt.md.36.line-height}",
-            "letterSpacing": "{tt.md.36.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-36}"
         },
         "fluid-heading-08 @sm": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.30.size}",
-            "lineHeight": "{tt.md.30.line-height}",
-            "letterSpacing": "{tt.md.30.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-30}"
         }
       },
       "Display": {
         "display-01 @lg": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.52.size}",
-            "lineHeight": "{tt.md.52.line-height}",
-            "letterSpacing": "{tt.md.52.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-52}"
         },
         "display-01 @md": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.44.size}",
-            "lineHeight": "{tt.md.44.line-height}",
-            "letterSpacing": "{tt.md.44.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-44}"
         },
         "display-01 @sm": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.36.size}",
-            "lineHeight": "{tt.md.36.line-height}",
-            "letterSpacing": "{tt.md.36.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-36}"
         },
         "display-02 @lg": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.64.size}",
-            "lineHeight": "{tt.md.64.line-height}",
-            "letterSpacing": "{tt.md.64.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-64}"
         },
         "display-02 @md": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.44.size}",
-            "lineHeight": "{tt.md.44.line-height}",
-            "letterSpacing": "{tt.md.44.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-44}"
         },
         "display-02 @sm": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.36.size}",
-            "lineHeight": "{tt.md.36.line-height}",
-            "letterSpacing": "{tt.md.36.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-36}"
         },
         "display-03 @lg": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.72.size}",
-            "lineHeight": "{tt.md.72.line-height}",
-            "letterSpacing": "{tt.md.72.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-72}"
         },
         "display-03 @md": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.52.size}",
-            "lineHeight": "{tt.md.52.line-height}",
-            "letterSpacing": "{tt.md.52.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-52}"
         },
         "display-03 @sm": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{superior.font}",
-            "fontWeight": "{tt.md.weight}",
-            "fontSize": "{tt.md.36.size}",
-            "lineHeight": "{tt.md.36.line-height}",
-            "letterSpacing": "{tt.md.36.letter-spacing}"
-          }
+          "$value": "{Primitives.TTNormsPro.tt-md-36}"
         }
       },
       "Quote": {
         "quote-04 @lg": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontSize": "{ro.rg.24.size}",
-            "lineHeight": "{ro.rg.24.line-height}",
-            "fontWeight": "{font-style.italic}",
-            "letterSpacing": "{ro.rg.24.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-it-24}"
         },
         "quote-04 @md": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontSize": "{ro.rg.24.size}",
-            "lineHeight": "{ro.rg.24.line-height}",
-            "fontWeight": "{font-style.italic}",
-            "letterSpacing": "{ro.rg.24.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-it-20}"
         },
         "quote-04 @sm": {
           "$type": "typography",
-          "$value": {
-            "fontFamily": "{base.font}",
-            "fontSize": "{ro.rg.20.size}",
-            "lineHeight": "{ro.rg.20.line-height}",
-            "fontWeight": "{font-style.italic}",
-            "letterSpacing": "{ro.rg.20.letter-spacing}"
-          }
+          "$value": "{Primitives.Roboto.ro-it-20}"
         }
       }
     }
