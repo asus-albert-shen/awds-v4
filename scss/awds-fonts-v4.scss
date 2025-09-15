@@ -1,5 +1,11 @@
+// AWDS Font System v4.2.1
+
+// #Fontype-v4.2.1
+// v4.2.1 Update Note 20250915
+// - Add mixin: heading-05, heading-06, fluid-quote-04, fluid-heading-02-top, fluid-heading-03-top, fluid-heading-04-top, fluid-heading-04-base, fluid-heading-05-base, fluid-heading-06-top, fluid-heading-06-base, fluid-heading-07-top ,fluid-heading-07-base, fluid-heading-08-split
+
 // #Fontype-v4.2.0
-// v4.2 Update Note 20240606
+// v4.2 Update Note 20240909
 // - Change $sizes 12 value to 0.75rem, 1.333, 0
 // - Change $sizes 13 value to 0.8125rem, 1.385, 0
 // - Change $sizes 14 value to 0.875rem, 1.429, 0
@@ -549,3 +555,192 @@ strong {
         @include font-style("", "", 72);
     }
 }
+
+// 20250915 新增
+@mixin heading-05() {
+    @include tt-md-24();
+}
+
+@mixin heading-06() {
+    @include tt-md-30();
+}
+
+@mixin fluid-quote-04() {
+    @include ro-it-20();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 20);
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 24);
+    }
+}
+@mixin fluid-heading-02-top() {
+    @include tt-md-14();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 16);
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 16);
+    }
+}
+
+@mixin fluid-heading-03-top() {
+    @include tt-md-16();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 18);
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 18);
+    }
+}
+
+@mixin fluid-heading-04-top() {
+    @include tt-md-18();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 20);
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 20);
+    }
+}
+
+@mixin fluid-heading-04-base() {
+    @include tt-md-18();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 18);
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 20);
+    }
+}
+
+@mixin fluid-heading-05-base() {
+    @include tt-md-20();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 20);
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 24);
+    }
+}
+
+@mixin fluid-heading-06-top() {
+    @include tt-md-24();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 30);
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 30);
+    }
+}
+
+@mixin fluid-heading-06-base() {
+    @include tt-md-24();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 24);
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 30);
+    }
+}
+
+@mixin fluid-heading-07-top() {
+    @include tt-md-30();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 36);
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 36);
+    }
+}
+
+@mixin fluid-heading-07-base() {
+    @include tt-md-30();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 30);
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 36);
+    }
+}
+
+@mixin fluid-heading-08-split() {
+    @include tt-md-30();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 36);
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 44);
+    }
+}
+
+@mixin fluid-paragraph-03-top() {
+    @include ro-rg-16();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 18);
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 18);
+    }
+}
+
+@mixin fluid-paragraph-04-top() {
+    @include ro-rg-18();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 20);
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 20);
+    }
+}
+
+@mixin fluid-paragraph-05-top() {
+    @include ro-rg-20();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 24);
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 24);
+    }
+}
+
+@mixin fluid-paragraph-05-split() {
+    @include ro-rg-18();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 20);
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 24);
+    }
+}
+
+@mixin fluid-display-01-split() {
+    @include tt-md-36();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 44);
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 52);
+    }
+}
+
+@mixin fluid-display-02-split() {
+    @include tt-md-36();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 52); // different with display-02 : 44 -> 52
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 64);
+    }
+}
+
+@mixin fluid-display-03() {
+    @include tt-md-36();
+    @media (min-width: map-get($breakpoints, md)) {
+        @include font-style("", "", 52);
+    }
+    @media (min-width: map-get($breakpoints, lg)) {
+        @include font-style("", "", 72);
+    }
+}
+
