@@ -205,7 +205,7 @@
         },
         "fluid-heading-06-top  @md": {
           "$type": "typography",
-          "$value": "{Primitives.TTNormsPro.tt-md-24}"
+          "$value": "{Primitives.TTNormsPro.tt-md-30}"
         },
         "fluid-heading-06-top  @sm": {
           "$type": "typography",
