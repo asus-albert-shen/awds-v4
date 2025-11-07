@@ -1,0 +1,411 @@
+/* ASUS Icons font-face setting */
+@font-face {
+    font-family: "ASUS Icons";
+    src: url("src/ASUS-Icons-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "ASUS Icons";
+    src: url("src/ASUS-Icons-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "ASUS Icons";
+    src: url("src/ASUS-Icons-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: block;
+}
+
+/* ProArt Icons font-face setting */
+@font-face {
+    font-family: "ProArt Icons";
+    src: url("src/ProArt-Icons-Regular.woff?nq6g57") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "ProArt Icons";
+    src: url("src/ProArt-Icons-Medium.woff?nq6g57") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "ProArt Icons";
+    src: url("src/ProArt-Icons-Bold.woff?nq6g57") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    // font-family: inherit !important;
+    // font-style: inherit;
+    // font-weight: inherit;
+    // font-variant: inherit;
+    // text-transform: inherit;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    margin: 0 0.3em 0 0;
+}
+
+[class^="icon-"]:after,
+[class*=" icon-"]:after {
+    margin: 0 0 0 0.3em;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.icon-arrowdown:before,
+.icon-arrowdown:after {
+    content: "\e900";
+}
+
+.icon-arrowdowncircle:before,
+.icon-arrowdowncircle:after {
+    content: "\e901";
+}
+
+.icon-arrowdownsolid:before,
+.icon-arrowdownsolid:after {
+    content: "\e902";
+}
+
+.icon-arrowleftcircle:before,
+.icon-arrowleftcircle:after {
+    content: "\e903";
+}
+
+.icon-arrowleftsolid:before,
+.icon-arrowleftsolid:after {
+    content: "\e904";
+}
+
+.icon-arrowrightcircle:before,
+.icon-arrowrightcircle:after {
+    content: "\e905";
+}
+
+.icon-arrowrightsolid:before,
+.icon-arrowrightsolid:after {
+    content: "\e906";
+}
+
+.icon-arrowupcircle:before,
+.icon-arrowupcircle:after {
+    content: "\e907";
+}
+
+.icon-arrowupsolid:before,
+.icon-arrowupsolid:after {
+    content: "\e908";
+}
+
+.icon-check:before,
+.icon-check:after {
+    content: "\e909";
+}
+
+.icon-checkcircle:before,
+.icon-checkcircle:after {
+    content: "\e90a";
+}
+
+.icon-checksolid:before,
+.icon-checksolid:after {
+    content: "\e90b";
+}
+
+.icon-chevrondown:before,
+.icon-chevrondown:after {
+    content: "\e90c";
+}
+
+.icon-chevrondowncircle:before,
+.icon-chevrondowncircle:after {
+    content: "\e90d";
+}
+
+.icon-chevrondownsolid:before,
+.icon-chevrondownsolid:after {
+    content: "\e90e";
+}
+
+.icon-chevronleft:before,
+.icon-chevronleft:after {
+    content: "\e90f";
+}
+
+.icon-chevronleftcircle:before,
+.icon-chevronleftcircle:after {
+    content: "\e910";
+}
+
+.icon-chevronleftsolid:before,
+.icon-chevronleftsolid:after {
+    content: "\e911";
+}
+
+.icon-chevronright:before,
+.icon-chevronright:after {
+    content: "\e912";
+}
+
+.icon-chevronrightcircle:before,
+.icon-chevronrightcircle:after {
+    content: "\e913";
+}
+
+.icon-chevronrightsolid:before,
+.icon-chevronrightsolid:after {
+    content: "\e914";
+}
+
+.icon-chevronup:before,
+.icon-chevronup:after {
+    content: "\e915";
+}
+
+.icon-chevronupcircle:before,
+.icon-chevronupcircle:after {
+    content: "\e916";
+}
+
+.icon-chevronupsolid:before,
+.icon-chevronupsolid:after {
+    content: "\e917";
+}
+
+.icon-circle:before,
+.icon-circle:after {
+    content: "\e918";
+}
+
+.icon-close:before,
+.icon-close:after {
+    content: "\e919";
+}
+
+.icon-download:before,
+.icon-download:after {
+    content: "\e91a";
+}
+
+.icon-exclamationcircle:before,
+.icon-exclamationcircle:after {
+    content: "\e91b";
+}
+
+.icon-exclamationsolid:before,
+.icon-exclamationsolid:after {
+    content: "\e91c";
+}
+
+.icon-exclamationtriangle:before,
+.icon-exclamationtriangle:after {
+    content: "\e91d";
+}
+
+.icon-exclamationtrianglesolid:before,
+.icon-exclamationtrianglesolid:after {
+    content: "\e91e";
+}
+
+.icon-external:before,
+.icon-external:after {
+    content: "\e91f";
+}
+
+.icon-externalrtl:before,
+.icon-externalrtl:after {
+    content: "\e920";
+}
+
+.icon-infocircle:before,
+.icon-infocircle:after {
+    content: "\e921";
+}
+
+.icon-infosolid:before,
+.icon-infosolid:after {
+    content: "\e922";
+}
+
+.icon-minus:before,
+.icon-minus:after {
+    content: "\e923";
+}
+
+.icon-minuscircle:before,
+.icon-minuscircle:after {
+    content: "\e924";
+}
+
+.icon-minussolid:before,
+.icon-minussolid:after {
+    content: "\e925";
+}
+
+.icon-paddleleft:before,
+.icon-paddleleft:after {
+    content: "\e926";
+}
+
+.icon-paddleright:before,
+.icon-paddleright:after {
+    content: "\e927";
+}
+
+.icon-pausecircle:before,
+.icon-pausecircle:after {
+    content: "\e928";
+}
+
+.icon-pausesolid:before,
+.icon-pausesolid:after {
+    content: "\e929";
+}
+
+.icon-playcircle:before,
+.icon-playcircle:after {
+    content: "\e92a";
+}
+
+.icon-playsolid:before,
+.icon-playsolid:after {
+    content: "\e92b";
+}
+
+.icon-plus:before,
+.icon-plus:after {
+    content: "\e92c";
+}
+
+.icon-pluscircle:before,
+.icon-pluscircle:after {
+    content: "\e92d";
+}
+
+.icon-plussolid:before,
+.icon-plussolid:after {
+    content: "\e92e";
+}
+
+.icon-question:before,
+.icon-question:after {
+    content: "\e92f";
+}
+
+.icon-questioncircle:before,
+.icon-questioncircle:after {
+    content: "\e930";
+}
+
+.icon-questioncirclertl:before,
+.icon-questioncirclertl:after {
+    content: "\e931";
+}
+
+.icon-questionrtl:before,
+.icon-questionrtl:after {
+    content: "\e932";
+}
+
+.icon-questionsolid:before,
+.icon-questionsolid:after {
+    content: "\e933";
+}
+
+.icon-questionsolidrtl:before,
+.icon-questionsolidrtl:after {
+    content: "\e934";
+}
+
+.icon-replay:before,
+.icon-replay:after {
+    content: "\e935";
+}
+
+.icon-reset:before,
+.icon-reset:after {
+    content: "\e936";
+}
+
+.icon-resetcircle:before,
+.icon-resetcircle:after {
+    content: "\e937";
+}
+
+.icon-resetsolid:before,
+.icon-resetsolid:after {
+    content: "\e938";
+}
+
+.icon-search:before,
+.icon-search:after {
+    content: "\e939";
+}
+
+.icon-share:before,
+.icon-share:after {
+    content: "\e93a";
+}
+
+.icon-solid:before,
+.icon-solid:after {
+    content: "\e93b";
+}
+
+.icon-stopcircle:before,
+.icon-stopcircle:after {
+    content: "\e93c";
+}
+
+.icon-stopsolid:before,
+.icon-stopsolid:after {
+    content: "\e93d";
+}
+
+.icon-thumbnailpause:before,
+.icon-thumbnailpause:after {
+    content: "\e93e";
+}
+
+.icon-thumbnailplay:before,
+.icon-thumbnailplay:after {
+    content: "\e93f";
+}
+
+.icon-thumbnailreplay:before,
+.icon-thumbnailreplay:after {
+    content: "\e940";
+}
+
+.icon-thumbnailshare:before,
+.icon-thumbnailshare:after {
+    content: "\e941";
+}

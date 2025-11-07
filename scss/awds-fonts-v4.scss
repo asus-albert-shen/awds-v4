@@ -1,4 +1,8 @@
-// AWDS Font System v4.3.0
+// AWDS Font System v4.4.0
+
+// #Fontype-v4.4.0
+// v4.4.0 Update Note 20251107
+// - Add icon font-family map and mixin to support different website icon fonts
 
 // #Fontype-v4.3.3
 // v4.3.3 Update Note 20251009
@@ -6,6 +10,7 @@
 // - Add mixin: tt-md-28, tt-md-32, tt-md-40, tt-md-48, tt-md-56
 // - Modify mixin: heading-06, fluid-heading-06-top, fluid-heading-06-base
 // - Modify mixin: ro-md-28, ro-md-32
+
 
 // #Fontype-v4.3.0
 // v4.3.0 Update Note 20250915
@@ -38,6 +43,8 @@
 // - Add token: ro-md-13, ro-md-14, ro-md-14-sh, ro-md-16, ro-md-16-sh, ro-md-18, ro-md-18-sh, ro-md-20, ro-md-20-sh, ro-md-24, ro-md-30, ro-md-36, paragraph-02
 // - Fix token: paragraph-01, heading-00-sh, heading-01-sh, heading-02-sh, heading-03-sh, heading-04-sh, Quote-04 value
 // - Del token: ro-bd-24, ro-bd-30, ro-bd-36, ro-bd-44, ro-bd-52, ro-bd-64, ro-bd-72
+
+@import '../fonts/icon-fonts.css'; // 20251107 引入icon字型檔案
 
 // ##Breakpoint map
 $breakpoints: (
@@ -82,10 +89,19 @@ $sizes: (
 );
 
 // ##Font pool
+
+$website-icons: (
+    "asus": '"ASUS Icons"',
+    "proart": '"ProArt Icons"',
+);
+
+$website-type: "asus" !default;
+
 $fonts: (
     "default": '"Roboto"',
     "superior-md": '"TTNormsProMedium"',
     "superior-nr": '"TTNormsProNormal"',
+    "icons": map-get($website-icons, $website-type), //20251107 根據網站類型載入對應icon字型
     "alternative": 'sans-serif',
     "JP": '"Biz UDGothic"', //241206 note:已開單執行全站統一
     "TW": '"Noto Sans TC"', //250217 依ADC中文識別更新新增TW字型
@@ -97,11 +113,13 @@ $fonts: (
     font-family:
         #{map-get($fonts, $font-key)},
         #{map-get($fonts, "default")},
+        #{map-get($fonts, "icons")},
         #{map-get($fonts, "alternative")};
     &:lang(ja-jp), &:lang(jp) {
         font-family:
             #{map-get($fonts, $font-key)},
             #{map-get($fonts, "default")},
+            #{map-get($fonts, "icons")},
             #{map-get($fonts, "JP")},
             #{map-get($fonts, "alternative")};
     }
@@ -109,6 +127,7 @@ $fonts: (
         font-family:
             #{map-get($fonts, $font-key)},
             #{map-get($fonts, "default")},
+            #{map-get($fonts, "icons")},
             #{map-get($fonts, "TW")},
             #{map-get($fonts, "alternative")};
     }
@@ -116,6 +135,7 @@ $fonts: (
         font-family:
             #{map-get($fonts, $font-key)},
             #{map-get($fonts, "default")},
+            #{map-get($fonts, "icons")},
             #{map-get($fonts, "KR")},
             #{map-get($fonts, "alternative")};
     }
