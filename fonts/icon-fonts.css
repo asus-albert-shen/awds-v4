@@ -1,7 +1,7 @@
 /* ASUS Icons font-face setting */
 @font-face {
     font-family: "ASUS Icons";
-    src: url("src/ASUS-Icons-Regular.woff") format("woff");
+    src: url("src/asus-icons-regular.woff") format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: block;
@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: "ASUS Icons";
-    src: url("src/ASUS-Icons-Medium.woff") format("woff");
+    src: url("src/asus-icons-medium.woff") format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: block;
@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: "ASUS Icons";
-    src: url("src/ASUS-Icons-Bold.woff") format("woff");
+    src: url("src/asus-icons-bold.woff") format("woff");
     font-weight: 700;
     font-style: normal;
     font-display: block;
@@ -26,7 +26,7 @@
 /* ProArt Icons font-face setting */
 @font-face {
     font-family: "ProArt Icons";
-    src: url("src/ProArt-Icons-Regular.woff?nq6g57") format("woff");
+    src: url("src/proart-Icons-regular.woff?nq6g57") format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: block;
@@ -34,7 +34,7 @@
 
 @font-face {
     font-family: "ProArt Icons";
-    src: url("src/ProArt-Icons-Medium.woff?nq6g57") format("woff");
+    src: url("src/proart-Icons-medium.woff?nq6g57") format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: block;
@@ -42,7 +42,7 @@
 
 @font-face {
     font-family: "ProArt Icons";
-    src: url("src/ProArt-Icons-Bold.woff?nq6g57") format("woff");
+    src: url("src/proart-Icons-bold.woff?nq6g57") format("woff");
     font-weight: 700;
     font-style: normal;
     font-display: block;
